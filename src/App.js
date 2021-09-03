@@ -162,7 +162,7 @@ if(slc_scrol01 > 60)
 <div className='d_ttl00'>
   <h1 className='h1_ttl00'>Portafolio</h1>
   <h1 className='h1_ttl01'>Front-End</h1>
-  <h1 className='h1_ttl02'>Cristobal Ortega</h1>
+  <h1 className='h1_ttl02'>Cristóbal Ortega</h1>
 </div>
 
 

@@ -8,7 +8,7 @@ export const Exm00_slc = (props)=>{
 
 
     const [Stdo_cmnt, Setstdo_cmnt] = useState([
-        [[0],["Grafico"], ["maquetar"]],
+        [[0],["Gráfico"], ["maquetar"]],
         [[1],["Galeria"], [" responsive"]],
         [[2],["Api"], ["forms, cruds "]]
       ]);

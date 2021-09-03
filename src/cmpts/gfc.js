@@ -5,7 +5,7 @@ import React, {  useState, useContext } from 'react'
 
 export const Gfc00 = ()=>{
 
-    const [std_gtfco00, setstd_gtfco00] = useState(0)
+    const [std_gtfco00, setstd_gtfco00] = useState(70)
 
     let Grfico00 = {
 

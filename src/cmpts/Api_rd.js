@@ -35,7 +35,7 @@ useEffect(()=>{
     return<div className='d_api00_00'>
 
 <div className='d_api00_03'>
-<h1 className='h1_api00_00'>Api nasa imagenes random</h1>
+<h1 className='h1_api00_00'>Api nasa imágenes random</h1>
 <button className='btn_api00' onClick={()=>{Slctud()}}>Siguiente</button>
 </div>
 

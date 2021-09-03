@@ -63,7 +63,7 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
 
 
 <div className={"d_sklgp00"  + std_skill.anmc00}>
-<p className='p_skl00 '>Me gusta el desarrollo frontend, ya que por un lado me entretiene la programacion, y por otro lado me gusta todo lo que tenga que ver con animaciones, dibujos etc. 
+<p className='p_skl00 '>Me gusta el desarrollo frontend, ya que por un lado me entretiene la Programación, y por otro lado me gusta todo lo que tenga que ver con animaciones, dibujos etc. 
 </p>
 </div>
 
