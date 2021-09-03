@@ -1,0 +1,213 @@
+
+body, html, #root{
+  width:100%;
+  height:100%;
+
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+header{
+width:90vw;
+height:4rem;
+background: rgba(87, 85, 85, 0.808);
+position: absolute;
+border-radius:0 0 0.3rem 0 ;
+z-index: 8;
+display: flex;
+justify-content:space-between;
+align-items: center;
+
+
+}
+
+.d_inco{
+width:100vw;
+height:28rem;
+background: rgb(250, 255, 255);
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow:inset 0 -2rem 0.3rem 0.1rem rgb(210, 221, 248);
+}
+
+.d_skl{
+  width:100vw;
+  height: 30rem;
+  background: rgb(54, 150, 206);
+  border-top: 0.1rem solid rgb(115, 151, 172);
+  box-shadow:inset 0rem 0rem 0.3rem 0.3rem rgb(52, 162, 206);
+  display: flex;
+padding: 0 0 2rem 0;
+  align-items: center;
+  flex-flow: column nowrap;
+
+}
+.d_ejrc{
+  width:100vw;
+  height: 40.2rem;
+  background: rgb(17, 17, 17);
+  display: flex;
+
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+.d_exm{
+  margin:2rem 0 0 0;
+  width:60rem;
+  height:24rem;
+ 
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+
+
+.d_exm00{
+  width:15rem;
+  height: 22rem;
+background: rgb(24, 24, 24);
+display: flex;
+flex-flow: column nowrap;
+}
+
+footer{
+  width:99vw;
+  height:5rem;
+  background: rgb(255, 255, 255);
+}
+
+.d_grnal00{
+
+  overflow: scroll;
+  height:100vh;
+  width:100vw;
+
+}
+
+
+
+.d_grnal00::-webkit-scrollbar-thumb {
+
+  background-color: rgb(203, 213, 223);
+  border-radius: 1rem;
+  transition: 1s;
+  box-shadow: -0.5vh 0vh 1vh 0.0vh rgba(93, 111, 114, 0.075);
+
+
+}
+
+.d_grnal00::-webkit-scrollbar {
+width: 1rem;   
+height: 0;   
+
+transition: 1s;
+}
+
+.d_ttl_pfl{
+  width:55rem;
+  height:15rem;
+display: flex;
+flex-flow: row nowrap;
+}
+.d_ttl00{
+
+  width:34rem;
+  height:15rem;
+
+}
+
+
+
+.h1_ttl00{
+font-size: 3.5rem;
+font-weight: 800;
+font-family: sans-serif;
+color:rgb(155, 139, 120);
+text-shadow: 0.05rem 0.05rem 0.1rem rgb(104, 105, 119);
+}
+
+.h1_ttl01{
+  font-size: 3.5rem;
+font-weight: 800;
+font-family: sans-serif;
+color:rgb(101, 154, 189);
+text-shadow: 0.05rem 0.05rem 0.1rem rgb(104, 105, 119);
+}
+.h1_ttl02{
+ 
+  font-size: 3.5rem;
+font-weight: 800;
+font-family: sans-serif;
+color:rgb(255, 255, 255);
+background: rgb(43, 45, 48);
+border-radius: 1rem;
+text-shadow: -0.05rem -0.05rem 0.1rem rgb(151, 150, 150);
+
+text-align: center;
+
+}
+
+.h1_ttl03{
+
+height:4rem;
+
+  font-size: 3.5rem;
+  font-weight: 800;
+  font-family: sans-serif;
+  color:rgb(223, 219, 219); 
+  padding:1rem 1rem 0 1rem;
+  text-align: center;
+  text-shadow: -0.05rem -0.05rem 0.1rem rgb(151, 150, 150);
+}
+
+
+.d_hdr00{
+
+  display: flex;
+  flex-flow: row nowrap;
+align-items: center;
+justify-content: space-around;
+  width:25rem;
+  height:2.6rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+.h1_hdr00{
+  font-size: 2rem;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-weight: 800;
+  transition: 0.3s;
+  text-shadow: 0.05rem 0.05rem 0.1rem rgb(88, 87, 87);
+}
+.h1_hdr00:hover{
+  color: rgb(228, 235, 201);
+  cursor:pointer;
+}
+
+
+.h1_hdr01{
+  margin: 0 0 0 1rem;
+  font-size: 2.1rem;
+  color: rgb(228, 228, 228);
+  font-family: 'Lobster', cursive;
+  font-weight: 800;
+  text-shadow: 0.05rem 0.05rem 0.1rem rgb(88, 87, 87);
+}
+
+.h1_hdr01:hover{
+  color: rgb(228, 235, 201);
+  cursor:pointer;
+}

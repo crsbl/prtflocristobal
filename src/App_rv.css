@@ -1,0 +1,70 @@
+
+@media only screen and (max-width:426px){
+
+
+
+.d_inco{
+    height:39rem;
+
+        width:100vw;
+}
+
+.d_grnal00{
+ overflow-x: hidden;
+
+}
+
+.d_grnal00::-webkit-scrollbar-thumb {
+
+    background-color: rgb(203, 213, 223);
+    border-radius: 0rem;
+    transition: 1s;
+    box-shadow: -0.5vh 0vh 1vh 0.0vh rgba(93, 111, 114, 0.075);
+  
+  
+  }
+  
+  .d_grnal00::-webkit-scrollbar {
+  width: 0rem;   
+  height: 0;   
+  
+  transition: 1s;
+  }
+
+.d_ttl_pfl{
+ justify-content: top;
+    flex-flow: column nowrap;
+    width:95vw;
+    height:30rem;
+    padding:0.5rem;
+}
+
+.d_ttl00{
+    width:21rem;
+    height:20rem;
+
+}
+
+.d_ptf01{
+    top: 0rem;
+}
+
+.d_skl{
+    height:47rem;
+
+}
+.d_exm{
+    flex-flow: column nowrap;
+    width:23rem;
+    height:50rem;
+    align-items: center;
+  
+}
+.d_ejrc{
+    height:75rem;
+    
+}
+
+
+
+}

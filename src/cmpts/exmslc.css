@@ -1,0 +1,52 @@
+.d_exmslc00{
+    margin:1.5rem 10rem 2rem 0;
+    width:50rem;
+    height:24rem;
+border:solid white 0.1rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+}
+
+.h1_exm00{
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family: monospace;
+    text-align: center;
+
+    
+ 
+}
+
+.d_exm01{
+    width:13rem;
+    height:4.3rem;
+
+    margin:0.8rem 0.8rem 0 0.8rem;
+
+    border:solid 0.3rem rgb(255, 255, 255);
+border-radius: 0.1rem 0.3rem 1rem 0rem ;
+}
+
+
+
+.d_exm01_ts00{
+    border:solid 0.3rem rgb(255, 255, 255);
+}
+.d_exm01_ts01{
+    border:solid 0.3rem rgb(231, 218, 96);
+}
+
+
+.d_exm02{
+
+    width:11rem;
+    height:2.3rem;
+    border-radius: 0 0 1rem 0rem;
+    background: rgb(37, 37, 37);
+    
+}
+
+.d_exm_anmcn00{
+    transition: 1s;
+}
+
