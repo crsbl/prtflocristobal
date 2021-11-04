@@ -26,6 +26,7 @@ background-color: rgba(95, 117, 119, 0.267);
 flex-flow: column nowrap;
 align-items: center;
 transition: 0.3s;
+border-radius: 2rem 0 0 0rem;
 }
 .d_hdmn01{
   background-color: rgba(95, 117, 119, 0.267);
@@ -38,6 +39,7 @@ transition: 0.3s;
   flex-flow: column nowrap;
   align-items: center;
   transition: 0.3s;
+  border-radius: 0rem 0 0 2rem;
   }
 header{
 
@@ -577,7 +579,7 @@ justify-content: space-around;
 
 .d_hdmn00:hover{
   cursor:pointer;
-border-radius: 2rem 0 0 0rem;
+
 transform: translate(-0.1rem, 0);
 }
 .d_hdmn01:hover{

@@ -13,14 +13,14 @@ header{
     flex-flow: row nowrap;
     width:8.5rem;
     height:3.5rem;
-  border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0 0 0.5rem 2rem;
     border-top: 0;
 }
 .d_hdmn01{
     flex-flow: row nowrap;
     width:8.5rem;
     height:3.5rem;
-  border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0 0 2rem 0.5rem;
     border-top: 0;
 }
 #Capa_1{
