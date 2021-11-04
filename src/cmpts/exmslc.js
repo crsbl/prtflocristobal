@@ -11,7 +11,7 @@ export const Exm00_slc = (props)=>{
         [[0],["Gráfico"], ["maquetar"]],
         [[1],["Galeria"], [" responsive"]],
         [[2],["Api"], ["forms, cruds "]],
-        [[3],["Canvas"], ["forms, cruds "]],
+       
         [[4],["Crud"], [""]]
       ]);
 
