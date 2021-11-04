@@ -3,17 +3,26 @@
 .d_Glra00{
     width:50rem;
     height:24rem;
- 
-    animation-name: grfc00;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
+
+   
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+    flex-flow: column nowrap;
+    justify-content: space-around;
     align-items: center;
-
-
+}
+.h1_glria00{
+  margin: 1rem;
+  color:rgb(180, 176, 176);
+  font-weight: 600;
+  font-family: monospace;
+}
+.d_glra01{
+background-color: rgb(38, 48, 56);
+  padding: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes grfc00{
@@ -23,52 +32,85 @@
 }
 
 .d_glria_01{
-    margin: 0 0 0 2rem;
-    width: 14rem;
-    height: 15rem;
+  background-color: #1c232e;
+  box-shadow:inset 0 -4rem 0.2rem 0.2rem #252b35;
    
+    width: 10rem;
+    height: 15rem;
+opacity: 0.8;
     border-radius: 0.1rem 0.1rem 0rem 0rem;
     display: flex;
     overflow: scroll;
     flex-flow: row wrap;
     overflow: scroll;
-    border: solid rgb(121, 121, 121) 0.1rem;
-  
+    border-bottom: solid rgb(64, 87, 94) 0.2rem;
+    border-left: solid rgb(66, 102, 110) 1rem;
+    border-top: solid rgb(66, 102, 110) 1.8rem;
+
 } 
 
 .d_dts_img00{
-    width: 4rem;
-    height: 4rem;
-    
+    width: 6rem;
+    height: 5rem;
+   
     margin: 1rem 1rem 1rem 1rem;
-    transition: 0.5s;
+    transition: 0.3s;
     cursor: pointer;
    
-    border-radius: 0.3rem 0.3rem 1rem 0.3rem;
+    border-radius: 0.2rem 0.2rem 0.8rem 0.2rem;
   }
+
+.d_dts_img00:hover{
+  transform: translate(-0.05rem, 0);
+  background-color: rgba(18, 28, 59, 0.212);
+}
+
+
+.d_img_slc{
+  width:14rem;
+ height:14rem;
+
+ background-repeat: no-repeat;
+
+ background-size: cover;
+ border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+animation-name: img_slc_galeria;
+animation-duration: 0.5s;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+}
+
+@keyframes img_slc_galeria {
+0%{
+opacity: 0;
+}
+
+}
 
   .d_dts_img_ttle00{
     text-align: center;
-    width: 4rem;
-    height: 1.2rem;
-    background: #717777;
+    width: 6rem;
+    height: 1.5rem;
+    background: #384747;
     overflow: hidden;
-    color: #e3e7db;
+    color: #d2d4ce;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;}
 
     .d_dts_img01{
-        width: 3rem;
+        width: 4rem;
         
-        height: 1.5rem;
-        background: #9fafaf;
+        height: 2rem;
+        background: #2b3a49;
         border-radius: 0 0 0.3rem 0rem;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 1rem;
         font-weight: 800;
-        color: #eaeff1;
-        text-align: center;
+        color: #9aa0a1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     
       
       }
@@ -76,18 +118,28 @@
       .d_img_opcn00{
         display: flex;
         flex-flow: row nowrap;
+      background-color: rgb(36, 38, 46);
+      box-shadow: inset 0 -3rem 0.2rem 0.2rem rgb(30, 32, 56);
+      padding: 1rem;
       }
 
       .d_mstr_img00
       {
-          width: 15rem;
+        
+          width: 17rem;
           height: 15rem;
-        border:solid 1px white;
-          border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+      opacity: 0.8;
+          border-radius: 0.1rem 0.1rem 1rem 0.1rem;
+         
           display: flex;
           flex-flow: row nowrap;
-        
+        align-items: center;
+        justify-content: left;
+      
       }
+
+
+
 
       .d_mstr_img02
 { 
@@ -96,14 +148,14 @@
  height: 15rem;
 
  overflow: scroll;
-margin: 0 0 0 1rem;
+
 
  
 }
 
 .d_mstr_img02::-webkit-scrollbar-thumb {
  
-    background-color: rgb(228, 236, 238);
+    background-color: rgb(255, 255, 255);
    
     transition: 1s;
 
@@ -127,7 +179,7 @@ margin: 0 0 0 1rem;
 
   .d_glria_01::-webkit-scrollbar-thumb {
         
-    background-color: rgb(211, 220, 221);
+    background-color: rgb(92, 135, 145);
     border-radius: 4px;
     transition: 1s;
     box-shadow: -0.5vh 0vh 1vh 0.0vh rgba(93, 111, 114, 0.075);
@@ -138,6 +190,6 @@ margin: 0 0 0 1rem;
   .d_glria_01::-webkit-scrollbar {
   width: 1rem;   
   height: 0rem;   
-  background:rgb(98, 101, 102);
+  background:rgb(42, 72, 78);
   transition: 1s;
   }

@@ -54,7 +54,7 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
         <div className='d_skl02'>
         <h1 className='h1_skl00'>{cmt[0]}</h1> 
         
-       <image style={{width:"3rem", height:"3rem", backgroundImage:`url(${cmt[2]})`, backgroundSize:"2rem 2rem", backgroundRepeat:"no-repeat"}}></image>
+       <div style={{width:"2rem", height:"2rem", backgroundImage:`url(${cmt[2]})`, backgroundSize:"2rem 2rem", backgroundRepeat:"no-repeat"}}></div>
         </div>  
         </div>
 
@@ -63,8 +63,14 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
 
 
 <div className={"d_sklgp00"  + std_skill.anmc00}>
-<p className='p_skl00 '>Me gusta el desarrollo frontend, ya que por un lado me entretiene la Programación, y por otro lado me gusta todo lo que tenga que ver con animaciones, dibujos etc. 
+<p className='p_skl00 '>Me agrada el desarrollo front-end, me entretiene la Programación, y por otro lado me gusta todo lo que tenga que ver con diseño web y despliegue de la información. 
+
 </p>
+
+<p className='p_skl01'>
+responsivo(flex, @media), async y await, spread, desestructuración, filter, map, foreach, usestate, useeffect, context, usereft, styled
+</p>
+
 </div>
 
 </div>

@@ -8,7 +8,7 @@ import './api_rd_rv.css'
 export const Api_rd00 = ()=>{
 
 
-const[std_bsqda, setstd_bsqda] = useState("pokemon")
+
 const[rtds_bsqda, setrtds_bsqda] = useState([[""]])
 
 

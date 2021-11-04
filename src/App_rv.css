@@ -1,20 +1,52 @@
 
 @media only screen and (max-width:426px){
 
-
-
+header{
+         flex-flow: row nowrap;   
+         border-radius: 0 0 2rem 2rem;
+         width:99vw;
+         left:0; 
+         top:0;
+         padding: 0 0 0.3rem 0;                                                                                                                                                                                                                                                                                                                  
+}
+.d_hdmn00{
+    flex-flow: row nowrap;
+    width:8.5rem;
+    height:3.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+    border-top: 0;
+}
+.d_hdmn01{
+    flex-flow: row nowrap;
+    width:8.5rem;
+    height:3.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+    border-top: 0;
+}
+#Capa_1{
+    transform: scale(0.8);
+}
 .d_inco{
     height:39rem;
 
         width:100vw;
 }
 
-.d_grnal00{
+.h1_ttl02{
+    padding: 0rem 2rem 0.5rem 2rem;
+    width:15rem;
+    height:8.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d_grnal01{
  overflow-x: hidden;
 
 }
 
-.d_grnal00::-webkit-scrollbar-thumb {
+.d_grnal01::-webkit-scrollbar-thumb {
 
     background-color: rgb(203, 213, 223);
     border-radius: 0rem;
@@ -24,12 +56,25 @@
   
   }
   
-  .d_grnal00::-webkit-scrollbar {
+  .d_contacto01{
+ 
+    width:95vw;}
+
+  .d_grnal01::-webkit-scrollbar {
   width: 0rem;   
   height: 0;   
   
   transition: 1s;
   }
+
+.d_dsarrollos01{
+    width:90vw;
+}
+
+.frame_00{
+    width:17rem;
+    height:13rem;
+}
 
 .d_ttl_pfl{
  justify-content: top;
@@ -50,21 +95,38 @@
 }
 
 .d_skl{
-    height:47rem;
-
+width:100vw;
+    padding: 0 0.2rem 0rem 0.2rem;
 }
 .d_exm{
     flex-flow: column nowrap;
-    width:23rem;
-    height:50rem;
+    width:99vw;
+    padding: 0 0 2rem 0;
     align-items: center;
   
 }
+
+.d_exm00{
+    padding: 0 0 1rem 0;
+}
+
 .d_ejrc{
-    height:75rem;
-    
+    width:100vw;
+    padding: 0 0 1rem 0;
+}
+
+footer{
+    width:100vw;
 }
 
 
+.d_img01{
+  
+    background-size: cover;
+      margin: 1rem;
+      background-image: url('./img/dddw.jpg');
+      width:17rem ;
+      height:10rem;
+    }
 
 }

@@ -1,0 +1,61 @@
+
+@media only screen and (max-width:426px){
+    .d_crd02{
+        flex-flow: column  nowrap;
+        align-items: center; 
+    }
+.d_crd_dts00{
+    overflow:scroll;
+    width:94.5vw; 
+    margin:1rem 0 0 0;
+}
+
+
+   
+   .d_crd_dts00::-webkit-scrollbar {
+   
+   width: 0rem;   
+   height: 0rem;   
+
+   }
+
+
+
+
+
+
+.d_crd_dts01{
+    width:94.5vw; 
+}
+
+.h3_crd_dts00{
+width:32.5vw;
+}
+
+.d_crd02{
+ 
+    flex-flow: column  nowrap;
+}
+.d_crd00{
+  
+    height:35rem;
+}
+
+.d_crd_gr01{
+    margin:0.2rem;
+    
+}
+
+
+  
+
+.d_crd03{flex-flow: column nowrap; align-items: center; padding: 0.1rem;   height:20rem; margin:0.5rem 0 0 0;}
+.h3_crd_dts01{ width:21vw; }
+.h3_crd_dts02{width:17vw; } 
+.h3_crd_dts06{width:16.5vw;}
+.h3_crd_dts05{width:20vw; }
+    .h3_crd_dts04{width:32vw; }
+    .h3_crd_dts03{ width:25.6vw; }
+    .h3_crd_dts07{width:23vw ; }
+
+}

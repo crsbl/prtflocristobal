@@ -46,8 +46,8 @@ import React, {  useState,useContext } from 'react';
        {
            img_dts.map((dts_img) => {
 
-               return <div className='d_dts_img00'
-               style={ img_slc_dstcr == dts_img[0] ? { border:"solid 0.1rem yellow"} :{ border:"solid 0.1rem white"}}
+               return <div key={dts_img[0]} className='d_dts_img00'
+               style={ img_slc_dstcr == dts_img[0] ? { border:"solid 0.1rem rgb(209, 209, 148)"} :{ border:"solid 0.1rem rgb(156, 156, 156)"}}
                 onClick={() => {
                    if(img_slc_dstcr == dts_img[0])
                    {}
@@ -60,7 +60,7 @@ import React, {  useState,useContext } from 'react';
                }}>
                    <div className='d_dts_img_ttle00'>{dts_img[1]}</div>
                    
-                   <div className='d_dts_img01'>JPG</div>
+                   <div className='d_dts_img01'>IMG</div>
                    </div>
 
            })
@@ -104,11 +104,17 @@ const[slc_scl, setslc_scl] = useState(0)
  }
  
  `;
+let style_slc_img = { 
+    backgroundImage:`url(${stdo_img_gl})`,
+    filter: `grayscale(${slc_scl})`
+}
 
  return <React.Fragment>
 <div className='d_img_opcn00'>
-<div className='d_mstr_img00'>
- <Img_slc/>
+<div className='d_mstr_img00' style={style_slc_img} >
+
+ <div className='d_img_slc' style={style_slc_img}></div>
+
  </div>
 
  <div className='d_mstr_img02'onScroll={(e)=>{
@@ -138,8 +144,11 @@ return console.log("Total: "+tltlhgtscrll +"Posicion: "+e.currentTarget.scrollTo
  </React.Fragment>
 }
     return<div className='d_Glra00'>
+
+<h1 className='h1_glria00'>Seleccione imagen</h1>
+        <div className='d_glra01'>
 <Mstrar_Img/>
 <Cnt_gleria/>
-
+</div>
     </div>
  } 

@@ -10,8 +10,8 @@ import React, {  useState,useContext } from 'react';
   
 
     nmro_scroll:null,
-    stdo_p_scrol:15,
-    
+    stdo_p_scrol:null,
+  
  
     exm:{
       stdo_exm: null,
@@ -41,5 +41,6 @@ import React, {  useState,useContext } from 'react';
       }
     
     }
-    
+
+
    export let Contx_scroll = React.createContext(std_scroll)

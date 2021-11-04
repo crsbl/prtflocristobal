@@ -1,16 +1,32 @@
+
+.d_gfc04{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
 .d_gfc00{
     width:50rem;
     height:24rem;
  
+
+
     border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
     animation-name: grfc00;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+  justify-content: space-around;
 }
 
 @keyframes grfc00{
@@ -24,8 +40,36 @@
     display: flex;
   align-items: flex-end;
   border-top:solid 0.1rem rgb(92, 92, 92) ;
-
+justify-content: center;
 }
+.d_gfc01_00{
+    border:solid 0.1px;
+    display: flex;
+    
+    width:10rem;
+    height:10rem;
+
+
+    align-items: center;
+    justify-content: center;
+}
+
+.d_gfc_dnmco01{
+    
+    width: 1.2rem;
+    background: white;
+    transition: 1s;
+    animation-name: grfc_dnmc00;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+@keyframes grfc_dnmc00{
+    0%{
+        height:0rem;
+    }
+}
+
 
 .d_gfc02{
     width:10rem;
@@ -62,6 +106,9 @@ justify-content: left;
 }
 
 .h1_gfc00{
-    color:white;
+    color:rgb(168, 167, 167);
    border: 0;
+   font-weight: 800;
+    font-family: monospace;
+    text-decoration:underline;
 }

@@ -1,0 +1,21 @@
+
+
+
+.d_cnvs00{
+    width:50rem;
+    height:20rem;
+ border:solid 0.1rem white;
+  
+    animation-timing-function: linear;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cnvs00{
+    width:18rem;
+    height:18rem;
+    border:solid 0.1rem white;
+}

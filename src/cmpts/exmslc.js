@@ -10,7 +10,9 @@ export const Exm00_slc = (props)=>{
     const [Stdo_cmnt, Setstdo_cmnt] = useState([
         [[0],["Gráfico"], ["maquetar"]],
         [[1],["Galeria"], [" responsive"]],
-        [[2],["Api"], ["forms, cruds "]]
+        [[2],["Api"], ["forms, cruds "]],
+        [[3],["Canvas"], ["forms, cruds "]],
+        [[4],["Crud"], [""]]
       ]);
 
       const [std_exm, setstd_exm] = useState({
@@ -32,7 +34,7 @@ anmc00:" d_exm01_ts00 "
         
         {Stdo_cmnt.map((cmt)=>{
     
-        return<div key={cmt[0]} className={' d_exm01 '} style={props.exmslc00 == cmt[0] ? {border:"solid 0.3rem rgb(231, 218, 96)"} : {border:"solid 0.3rem rgb(255, 255, 255)"}} onClick={()=>{props.setexmslc00(cmt[0])
+        return<div key={cmt[0]} className={' d_exm01 '} style={props.exmslc00 == cmt[0] ? {border:"solid 0.2rem rgb(189, 180, 99)", transform:"translate(1rem,0)"} : {border:"solid 0.2rem rgb(182, 181, 181)"}} onClick={()=>{props.setexmslc00(cmt[0])
         
             if(props.xmslc00 == cmt[0])
             {setslc_dstcdo({

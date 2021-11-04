@@ -8,24 +8,22 @@ export const Gfc00 = ()=>{
     const [std_gtfco00, setstd_gtfco00] = useState(70)
 
     let Grfico00 = {
-
-        margin: "0 auto 0rem auto",
-        width: "1.2rem",
-        height: std_gtfco00 /10 + "rem",
-        background: "white",
-        transition: "1s"
-
+        height: std_gtfco00 /10 + "rem"
     }
-
+    let Grfico01 = {
+        height: std_gtfco00 /10 + "rem"
+    }
     return <div className='d_gfc00'>
 
-        
-    
+        <h1 className='h1_gfc00'>Ingrese un porcentaje</h1>
+    <div className='d_gfc04'>
 <div className='d_gfc02'>
 <div className='d_gfc01'>
-<div style={Grfico00}></div>
+<div className='d_gfc_dnmco01' style={Grfico01}></div>
 </div>
 </div>
+
+
 <div className='d_gfc03'>
     <h1 className='h1_gfc00'>%</h1>
 <input className='inp_gfc00'  value={ std_gtfco00} onChange={(e) => {
@@ -49,7 +47,9 @@ if(nmro_inp.substr(0, 3) == 100 && nmro_inp > 100){setstd_gtfco00(100)}
                 }}></input>
 
 </div>
-
-
+</div>
     </div>
+
+
+
 }

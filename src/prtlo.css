@@ -87,7 +87,7 @@ left:4.75rem;
   border-radius: 0.3rem 0.3rem 0 0;
   background: rgb(245, 205, 166);
   border-radius: 0 0 0.3rem 0.3rem;
-transition: 1s;
+transition: 0.7s;
   position: absolute; 
 }
 
@@ -97,7 +97,7 @@ transition: 1s;
 }
 .prtf01_ts01{
   height:1rem;
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .d_ptf03_00{
@@ -110,7 +110,7 @@ left:1.5rem;
   background: rgb(216, 216, 215);
   border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
   position: absolute; 
-  transition: 1s;
+  transition: 0.7s;
 }
 
 .prtf02_ts00{
@@ -145,7 +145,7 @@ left:10rem;
   border-radius: 0.3rem 0.3rem 0 0;
   background: rgb(216, 216, 215);
   border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
-  transition: 1s;
+  transition: 0.7s;
   position: absolute; 
 }
 
