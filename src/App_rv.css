@@ -10,17 +10,18 @@ header{
          padding: 0 0 0.3rem 0;                                                                                                                                                                                                                                                                                                                  
 }
 .d_hdmn00{
-    flex-flow: row nowrap;
-    width:8.5rem;
-    height:3.5rem;
-  border-radius: 0 0 0.5rem 2rem;
+
+    width:5.5rem;
+    height:3.5rem;  
+    border-radius: 0 0 0 2rem ;
     border-top: 0;
+
 }
 .d_hdmn01{
-    flex-flow: row nowrap;
-    width:8.5rem;
+  
+    width:5.5rem;
     height:3.5rem;
-  border-radius: 0 0 2rem 0.5rem;
+  border-radius: 0 0 2rem 0 ;
     border-top: 0;
 }
 #Capa_1{
@@ -31,6 +32,13 @@ header{
 
         width:100vw;
 }
+
+.h1_ttl03{
+    width:100vw;
+}
+
+
+
 
 .h1_ttl02{
     padding: 0rem 2rem 0.5rem 2rem;
