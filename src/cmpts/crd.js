@@ -39,7 +39,7 @@ const resposive00 = window.innerWidth > 426
 
 
 const itms_tdos = async()=>{
-    const url = './php/az_crd.php'
+    const url = '/php/az_crd.php'
     const res = await fetch(`${url}`)
     const data = await res.json()
     
@@ -121,7 +121,7 @@ const handdle_buscar = (evn)=>{
 
     const value = evn.currentTarget.value
     setstds_inpus({...stds_inpus, [evn.target.name]:value })
-    Cnslta_pst(4, './php/bscr_dts.php', [stds_inpus.buscar])
+    Cnslta_pst(4, '/php/bscr_dts.php', [stds_inpus.buscar])
 
 
     
@@ -311,7 +311,7 @@ case 1:
 
 if(stds_inpus.nombre.length > 0 && stds_inpus.marca.length > 0 && stds_inpus.cantidad > 0 && stds_inpus.precio > 0)
 {
-    Cnslta_pst(1, './php/gr_dts.php', [stds_inpus.nombre, stds_inpus.marca, stds_inpus.cantidad, stds_inpus.precio])
+    Cnslta_pst(1, '/php/gr_dts.php', [stds_inpus.nombre, stds_inpus.marca, stds_inpus.cantidad, stds_inpus.precio])
 
 }
 else
@@ -324,7 +324,7 @@ case 2:
     {
 
 
-        Cnslta_pst(2, './php/mdf_dts.php', [stds_slc.crd.slc_dts,stds_inpus.nombre, stds_inpus.marca, stds_inpus.cantidad, stds_inpus.precio])
+        Cnslta_pst(2, '/php/mdf_dts.php', [stds_slc.crd.slc_dts,stds_inpus.nombre, stds_inpus.marca, stds_inpus.cantidad, stds_inpus.precio])
   
     }
     else
@@ -335,7 +335,7 @@ case 3:
     if(stds_slc.crd.slc_dts.length > 0 && stds_inpus.nombre.length > 0 && stds_inpus.marca.length > 0 && stds_inpus.cantidad.length > 0 && stds_inpus.precio.length > 0)
     {
   
-        Cnslta_pst(3, './php/dlt_crd.php', [stds_slc.crd.slc_dts])
+        Cnslta_pst(3, '/php/dlt_crd.php', [stds_slc.crd.slc_dts])
       
     }
     else
