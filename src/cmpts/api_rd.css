@@ -37,7 +37,7 @@
     width:22rem;
     height:20rem;
   box-shadow: 0.1rem 0 0.1rem 0.1rem rgb(20, 20, 20);
-   
+  background-color: rgb(42, 46, 49);
 }
 
 .d_api00_02{
@@ -45,6 +45,7 @@
     height:20rem;
   box-shadow: 0.1rem 0 0.1rem 0.1rem rgb(20, 20, 20);
     overflow: scroll;
+    background-color: rgb(36, 50, 59);
 }
 
 .h2_api00_00{
@@ -70,7 +71,7 @@
     color:rgb(180, 176, 176);
     font-weight: 600;
     font-family: monospace;
-
+text-decoration: underline;
   text-align: center;
 
 }
