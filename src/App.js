@@ -75,7 +75,7 @@ const Hadr = ()=>{
   return<header>
 
 <div className='d_hdmn00'onClick={()=>{setstd_mnu(1)}}>
-  <h1 className='h1_hdr00'>Pjs</h1>
+  
   <svg version="1.1" id="Capa_1" >
 <rect x="5.65" y="0.18" class="st0" width="0.35" height="0.35"/>
 <path class="st1" d="M44.93,56.87H0.42V0.53h44.52c0,8.58,0,17.17,0,25.75C44.93,36.48,44.93,46.67,44.93,56.87z"/>
@@ -108,7 +108,7 @@ const Hadr = ()=>{
   </div>
 
   <div className='d_hdmn01' onClick={()=>{setstd_mnu(2)}}>
-<h1 className='h1_hdr00'>Info</h1>
+
 
 <svg version="1.1" id="Capa_1" >
 
