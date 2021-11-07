@@ -168,7 +168,7 @@ responsivo(flex, @media), async y await, localstorage, spread, desestructuració
 <rect x="19.08" y="18.94" class="st36w" width="5.78" height="2.07"/>
 </svg>
 
-
+<div className ='d_ilustracion_svg00'></div>
 </div>
 
 
