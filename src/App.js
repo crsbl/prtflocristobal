@@ -108,7 +108,7 @@ const Hadr = ()=>{
   </div>
 
   <div className='d_hdmn01' onClick={()=>{setstd_mnu(2)}}>
-
+<h1 className='h1_hdr00'></h1>
 
 <svg version="1.1" id="Capa_1" >
 
@@ -237,32 +237,14 @@ const Contacto = ()=>{
  })}
  
  
- 
- 
- 
- 
- 
- 
- 
- if(slc_scrol01 < 5)
- {cntx.skill.setstdo_skll({
-   anmc00:" skl01_ts00 ",
- })}
  if(slc_scrol01 > 15)
  {cntx.skill.setstdo_skll({
    anmc00:" skl01_ts01 ",
  })}
- if(slc_scrol01 > 65)
- {cntx.skill.setstdo_skll({
-   anmc00:" skl01_ts00 ",
- })}
+
  
  
- 
- if(slc_scrol01 < 70)
- {cntx.exm.setstdo_exm({
-   anmc00:" skl01_ts00 ",
- })}
+
  if(slc_scrol01 > 70)
  {cntx.exm.setstdo_exm({
    anmc00:" skl01_ts01 ",

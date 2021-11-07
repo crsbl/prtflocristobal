@@ -166,3 +166,86 @@ justify-content:center;
     animation-duration: 3s;
  
 }
+
+.d_ilustracion_svg{
+  
+    width:20rem;
+  
+    height:13.3rem;
+    display: flex;
+   flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Capa_2{
+margin: 0 0 0 2rem;
+    transform: scale(3);
+    width:3.5rem;
+    height:3.3rem;
+  
+}
+#Capa_3{
+    transform: scale(3);
+    width:3.5rem;
+    height:3.3rem;  
+}
+
+
+.st0a{fill:#A8CDD3;}
+.st1a{fill:#E3F3F9;}
+.st2a{fill:#EFEDED;}
+.st3a{fill:#C6E0DE;}
+.st4a{fill:#EDEDED;}
+.st5a{fill:#FFFFFF;}
+.st6a{fill:#DBDBDB;}
+.st7a{fill:#BDD6D3;}
+.st8a{fill:#A1D7E3;}
+.st9a{fill:#9FD3DB;}
+.st10a{fill:#64C0BF;}
+.st11a{fill:#61B5B3;}
+.st12a{fill:#FCDEA9;}
+.st13a{fill:#F3D6A7;}
+.st14a{fill:#A8C5E9;}
+.st15a{fill:#A1BEDD;}
+.st16a{fill:#F8CCE1;}
+.st17a{fill:#EEC6DC;}
+
+
+.st0w{fill:#E4E8B5;}
+	.st1w{fill:#E3F3F9;}
+	.st2w{fill:#E8E8E8;}
+	.st3w{fill:#FFFFFF;}
+	.st4w{fill:#F8F7F6;}
+	.st5w{fill:#EAEAEA;}
+	.st6w{fill:#E0E0E0;}
+	.st7w{fill:#F4F4F4;}
+	.st8w{fill:#DEE2C3;}
+	.st9w{fill:#EFEFEF;}
+	.st10w{fill:#FCDEA9;}
+	.st11w{fill:#B7DAB4;}
+	.st12w{fill:#A8C5E9;}
+	.st13w{fill:#F8CCE1;}
+	.st14w{fill:#ABDDF9;}
+	.st15w{fill:#DDD99E;}
+	.st16w{fill:#64C0BF;}
+	.st17w{fill:#8DA9D9;}
+	.st18w{fill:#F7BEAA;}
+	.st19w{fill:#C6E1C4;}
+	.st20w{fill:#A1D7E3;}
+	.st21w{fill:#C6E0DE;}
+	.st22w{fill:#EFEDED;}
+	.st23w{fill:#EDEDED;}
+	.st24w{fill:#DBDBDB;}
+	.st25w{fill:#BDD6D3;}
+	.st26w{fill:#C0D8BE;}
+	.st27w{fill:#EEC6DC;}
+	.st28w{fill:#A1BEDD;}
+	.st29w{fill:#9FD3DB;}
+	.st30w{fill:#E0AFA0;}
+	.st31w{fill:#B3D1B0;}
+	.st32w{fill:#61B5B3;}
+	.st33w{fill:#87A2CC;}
+	.st34w{fill:#D1CB99;}
+	.st35w{fill:#A3D3E8;}
+	.st36w{fill:#F3D6A7;}
