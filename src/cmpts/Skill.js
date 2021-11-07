@@ -54,7 +54,7 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
         <div className='d_skl02'>
         <h1 className='h1_skl00'>{cmt[0]}</h1> 
         
-       <div style={{width:"2rem", height:"2rem", backgroundImage:`url(${cmt[2]})`, backgroundSize:"2rem 2rem", backgroundRepeat:"no-repeat"}}></div>
+       <div className='d_sklimg00' style={{backgroundImage:`url(${cmt[2]})`}}></div>
         </div>  
    
         </div>
