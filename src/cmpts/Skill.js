@@ -3,14 +3,17 @@ import  './skill_rv.css'
 import React, {  useState, useContext } from 'react'
 import styled from 'styled-components';
 import {Contx_scroll} from './ctx00';
-
+import img_html_00 from '../img/html.svg'
+import img_css_00 from '../img/css.svg'
+import img_js_00 from '../img/js.svg'
+import img_react_00 from '../img/react.svg'
 export const Skl00 = ()=>{
 
     const [Stdo_cmnt, Setstdo_cmnt] = useState([
-        [["HTML5"], ["Estructuracion"], ["https://prtflocristobal.000webhostapp.com/img/html_ico.png"]],
-        [["CSS3"], ["maquetacion responsiva"],  ["https://prtflocristobal.000webhostapp.com/img/css_ico.png"]],
-        [["JAVASCRIPT"], ["forms, cruds "],  ["https://prtflocristobal.000webhostapp.com/img/js_ico.png"]],
-        [["REACT.JS"], ["hooks"],  ["https://prtflocristobal.000webhostapp.com/img/react_ico.png"]],
+        [["HTML5"], ["Estructuracion"], [img_html_00]],
+        [["CSS3"], ["maquetacion responsiva"],  [img_css_00]],
+        [["JAVASCRIPT"], ["forms, cruds "],  [img_js_00]],
+        [["REACT.JS"], ["hooks"],  [img_react_00]],
      
       ]);
 
@@ -54,14 +57,18 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
         <div className='d_skl02'>
         <h1 className='h1_skl00'>{cmt[0]}</h1> 
         
-       <div className='d_sklimg00' style={{backgroundImage:`url(${cmt[2]})`}}></div>
+       <div className='d_sklimg00' >
+         <img src={cmt[2]}></img>
+
+       </div>
         </div>  
    
         </div>
 
 })}
-</div>
 
+
+</div>
 
 <div className={"d_sklgp00"  + std_skill.anmc00}>
 <p className='p_skl00 '>Me agrada el desarrollo front-end, me entretiene la Programación, y por otro lado me gusta todo lo que tenga que ver con diseño web y despliegue de la información. 
