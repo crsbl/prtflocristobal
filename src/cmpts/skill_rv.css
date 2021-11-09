@@ -4,6 +4,7 @@
 
     .d_sklgp01{
         flex-flow: column nowrap;
+        box-shadow:inset -49vw 0 0.1rem 0.1rem rgb(80, 113, 151);
     }
 
 .p_skl01{

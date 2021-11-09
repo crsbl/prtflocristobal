@@ -38,7 +38,7 @@ padding: 1rem;
     width: 99vw;
   background-color: rgba(67, 104, 136, 0.548);
     padding: 0rem 0 2rem 0rem;
-   box-shadow: 0 0 0.2rem 0.1   rem rgb(90, 150, 165);
+   box-shadow:inset 0 -5rem 0.1rem 0.1rem rgb(80, 113, 151);
     display: flex;
     flex-flow: row nowrap;
 justify-content: center;
@@ -108,6 +108,7 @@ margin: 1rem 0 0 0;
     width: 12rem;
 background-color: rgb(100, 140, 143);
     user-select: none; 
+    border-radius: 0 0 2rem 2rem;
  
 }
 
