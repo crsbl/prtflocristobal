@@ -63,7 +63,7 @@ align-items: center;
 }
 .p_skl01{
     user-select: none; 
-margin: 1rem 0 0 0;
+margin: 1rem 0 0 0; 
     font-size: 1.6rem;
     color: rgb(111, 186, 202);
     text-shadow: -0.05rem -0.05rem 0.1rem rgb(124, 123, 123);
@@ -186,6 +186,7 @@ filter: grayscale(40%);
 
 .d_ilustracion_svg{
   
+  margin: 2rem 0 0 0;  
     width:20rem;
   
     height:13.3rem;
@@ -197,15 +198,17 @@ filter: grayscale(40%);
 }
 .d_ilustracion_svg00{
     width:22rem;
-    top:9.3rem;
+    top:10rem;
     border-radius: 50%;
-    background-color: #7ba3cf;
-   
-      height:4rem; 
+    background-color: #e9e7da;
+   box-shadow: inset 0 0 0.3rem 0.3rem #e9e7de;
+      height:3rem; 
       position: absolute;
       z-index: 8;
 }
-
+.img_res00{
+    z-index: 9;  
+}
 
 #Capa_2{
 margin: 0 0 0 2rem;
