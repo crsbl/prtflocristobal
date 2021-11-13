@@ -3,26 +3,23 @@
 
 header{
          flex-flow: row nowrap;   
-         border-radius: 0 0 2rem 2rem;
+    
          width:99vw;
          left:0; 
          top:0;
-         padding: 0 0 0.3rem 0;                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                       
 }
 .d_hdmn00{
 
-    width:5.5rem;
+    width:9.5rem;
     height:3.5rem;  
-    border-radius: 0 0 0 2rem ;
-    border-top: 0;
+
+
 
 }
 .d_hdmn01{
-  
-    width:5.5rem;
-    height:3.5rem;
-  border-radius: 0 0 2rem 0 ;
-    border-top: 0;
+    width:9.5rem;
+    height:3.5rem;  
 }
 #Capa_1{
     transform: scale(0.8);

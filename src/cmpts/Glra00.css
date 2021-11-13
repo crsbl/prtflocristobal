@@ -120,8 +120,8 @@ opacity: 0;
       .d_img_opcn00{
         display: flex;
         flex-flow: row nowrap;
-      background-color: rgb(36, 38, 46);
-      box-shadow: inset 0 -3rem 0.2rem 0.2rem rgb(30, 32, 56);
+      background-color: rgb(13, 14, 19);
+      box-shadow: inset 0 -3rem 0.2rem 0.2rem rgb(8, 8, 14);
       padding: 1rem;
       }
 

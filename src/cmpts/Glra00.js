@@ -28,13 +28,16 @@ import React, {  useState,useContext } from 'react';
    const contxt_mstr_mg = useContext(contxt_amcn)
 
    const img_arry = [
-       [[0],["Chinita"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/1.jpg"]],
-       [[1],["Camaleon"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/2.jpg"]],
-       [[2],["Camaron"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/3.jpg"]],
-       [[3],["Pinguinos"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/4.jpg"]],
-       [[4],["Tortuga"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/5.jpg"]],
-       [[5],["Tucan"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/6.jpg"]],
-       [[6],["Moai"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/7.jpg"]]]
+       [[0],["tibueron"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c1.jpg"]],
+       [[1],["Camaleon"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c2.jpg"]],
+       [[2],["empuñadura"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c3.jpg"]],
+       [[3],["Caballito de mar"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c4.jpg"]],
+       [[4],["Tortuga"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c5.jpg"]],
+       [[5],["Tucan"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c6.jpg"]],
+       [[6],["camaron"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c7.jpg"]],
+       [[7],["torre"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c8.jpg"]],
+       [[8],["medusa"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c9.jpg"]]
+    ]
 
 
    const [img_dts, setimg_dts] = useState(img_arry)

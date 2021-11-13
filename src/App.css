@@ -16,10 +16,10 @@ body{
  
 }
 .d_hdmn00{
-background-color: rgba(95, 117, 119, 0.507);
+
   
-  width:4rem;
-  height: 6rem;
+  width:19rem;
+  height: 4rem;
   
   display: flex;
   border:solid 0.1rem rgba(170, 170, 170, 0.514);
@@ -27,13 +27,13 @@ flex-flow: column nowrap;
 align-items: center;
 justify-content: center;
 transition: 0.3s;
-border-radius: 2rem 0 0 0rem;
+border-radius: 0.3rem 0 0 0rem;
 }
 .d_hdmn01{
-  background-color: rgba(95, 117, 119, 0.507);
+  
     margin: 0.1rem;
-    width:4rem;
-    height: 6rem;
+    width:14rem;
+    height: 4rem;
     border-radius: 0.2rem;
     display: flex;
     border:solid 0.1rem rgba(170, 170, 170, 0.514);
@@ -41,27 +41,29 @@ border-radius: 2rem 0 0 0rem;
   justify-content: center;
   align-items: center;
   transition: 0.3s;
-  border-radius: 0rem 0 0 2rem;
+
   }
 
 
 header{
 
- 
-padding: 1rem 0.1rem 1rem 0.3rem;
+
 transition: 0.3s;
-background: rgba(124, 135, 136, 0.507);
+
 position: absolute;
-border-radius:2rem 0 0 2rem  ;
+
 z-index: 8;
-right: 1rem;
-top:10rem;
+  background-color:rgba(53, 62, 78, 0.774) ;
+padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+border-radius:0.1rem;
+height: 4rem;
+right: 1vw;
 display: flex;
-flex-flow: column nowrap;
+flex-flow: row nowrap;
 justify-content: center;
 align-items: center;
-overflow: hidden;
-box-shadow: inset -1rem 0rem 0.3rem 0.2rem rgba(54, 54, 54, 0.212);
+overflow: hidden; 
+
 }
 
 #Capa_1{
@@ -77,14 +79,6 @@ box-shadow: inset -1rem 0rem 0.3rem 0.2rem rgba(54, 54, 54, 0.212);
 
 
 
-.st0{fill:#FFFFFF;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
-.st1{fill:#E8EFEF;stroke:#878787;stroke-width:0.05;stroke-miterlimit:10;}
-.st2{fill:#DCE0E0;}
-.st3{fill:#D6E5D9;}
-.st4{fill:#CDDBCF;}
-.st5{fill:#D3DDDD;}
-.st6{fill:#C6E5E4;}
-.st7{fill:#D1DDD2;}
 
 .d_dsarrollos00{
 
@@ -291,8 +285,8 @@ transition: 0.3s;
 
 .d_inco{
 width:99vw;
-height:26rem;
-
+height:33rem;
+transform: rotate3d(20deg);
 background: rgb(250, 255, 255);
 display: flex;
 align-items: center;
@@ -371,7 +365,7 @@ box-shadow: inset -10rem -2rem 0.3rem 0.3rem rgb(20, 19, 19);
 
   margin:2rem 0 0 0;
   width:60rem;
-background-color: rgb(23, 24, 36);
+background-color: rgb(12, 34, 43);
 border-left: solid 0.1rem rgb(161, 161, 161);
 border-bottom: solid 0.1rem rgb(122, 122, 122);
  padding:0 0 0rem 0;
@@ -510,6 +504,7 @@ text-align: center;
 height:4.3rem;
 width:50vw;
 background-color: rgba(75, 126, 170, 0.432);
+padding: 2rem 0 1rem 0;
   font-size: 3.5rem;
   font-weight: 800;
   font-family: sans-serif;
@@ -572,42 +567,31 @@ justify-content: space-around;
 
 }
 
-.d_hdmn00:hover > #Capa_1{
-  transform: rotate(6deg);
-  }
+
 
   .d_hdmn01:hover >.h1_hdr00{
     color: rgb(228, 235, 201);
   
   }
   
-  .d_hdmn01:hover > #Capa_1{
-    transform: rotate(6deg);
-    }
 
-.st0d{fill:#EAEAD6;}
-	.st1d{fill:#616160;}
-	.st2d{fill:#E0DFC6;}
-	.st3d{fill:#FFFFFF;}
-	.st4d{fill:#8EACAD;}
+  .d_hdmn00:hover{
+    cursor:pointer;
+  
+  
+  }
 
 
 
-.d_hdmn00:hover{
-  cursor:pointer;
-
-transform: translate(-0.1rem, 0);
-}
 .d_hdmn01:hover{
   cursor:pointer;
-border-radius: 0 0 0rem 2rem;
-transform: translate(-0.1rem, 0);
+
 
 }
 .h1_hdr01{
   user-select: none; 
-  margin: 0 2rem 0 0.5rem;
-  font-size: 2.1rem;
+  
+  font-size: 2.1rem;  
   color: rgb(228, 228, 228);
   font-family: 'Lobster', cursive;
   font-weight: 800;
@@ -615,9 +599,9 @@ transform: translate(-0.1rem, 0);
 }
 
 .h1_hdr01:hover{
-  user-select: none; 
+ 
   color: rgb(228, 235, 201);
-  cursor:pointer;
+
 }
 
 
