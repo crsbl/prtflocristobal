@@ -4,7 +4,7 @@
     width:50rem;
     height:24rem;
 
-   
+   background-color: rgb(105, 105, 87);
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -19,7 +19,7 @@
 }
 .d_glra01{
   
-background-color: rgb(35, 45, 54);
+background-color: rgb(182, 187, 168);
   padding: 0.2rem 2rem 0.2rem 2rem ;
   display: flex;
   flex-flow: row nowrap;
@@ -34,7 +34,7 @@ background-color: rgb(35, 45, 54);
 }
 
 .d_glria_01{
-  background-color: #1c232e;
+  background-color: #49493d;
   box-shadow:inset 0 -4rem 0.2rem 0.2rem #252b35;
    
     width: 10rem;

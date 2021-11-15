@@ -13,6 +13,8 @@ import {Api_rd00} from './cmpts/Api_rd';
 import {Contx_scroll} from './cmpts/ctx00';
 import {Crud00} from './cmpts/crd';
 import {Canvs00} from './cmpts/canvs';
+import img_carta00 from './img/carta.svg' ;
+
 function App() {
 
 
@@ -134,10 +136,12 @@ const Contacto = ()=>{
 </div>
 </div>
 <div className='d_contacto03'>
-<h1 className='h1_contacto01'>Info</h1>
+<h1 className='h1_contacto01'>Contacto</h1>
+
 
 <div className='d_contacto02'>
-<h1 className='h1_contacto02'>Contacto</h1>
+
+<img className='img_carta' src={img_carta00}></img>
 <h1 className='h1_contacto02'>z.edd36@gmail.com</h1>
 </div>
 
@@ -233,7 +237,7 @@ const Contacto = ()=>{
 
 <div className='d_skl'>
 
-<h1 className='h1_ttl03'>SKILLS</h1>
+<h1 className='h1_ttl03'>PERFIL</h1>
 
 <Skl00/>
 

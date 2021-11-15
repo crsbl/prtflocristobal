@@ -3,7 +3,7 @@
     
     width:50rem;
     height:24rem;
- 
+ background-color: rgb(62, 78, 55);
     border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
     display: flex;
     flex-flow: column nowrap;
