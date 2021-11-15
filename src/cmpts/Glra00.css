@@ -3,7 +3,7 @@
 .d_Glra00{
     width:50rem;
     height:24rem;
-
+    background: linear-gradient(270deg,rgb(13, 16, 17) 2%,  rgb(78, 78, 63) 49%,  rgb(105, 105, 87) 100%);
    background-color: rgb(105, 105, 87);
     display: flex;
     flex-flow: column nowrap;
@@ -18,7 +18,7 @@
   text-decoration: underline;
 }
 .d_glra01{
-  
+  box-shadow: 0.1rem 0 0.1rem 0.1rem rgb(68, 67, 67);
 background-color: rgb(182, 187, 168);
   padding: 0.2rem 2rem 0.2rem 2rem ;
   display: flex;

@@ -1,6 +1,6 @@
 
 .d_api00_00{
-    
+    background: linear-gradient(270deg,rgb(13, 16, 17) 1%, rgb(54, 70, 47) 49%, rgb(62, 78, 55) 100%);
     width:50rem;
     height:24rem;
  background-color: rgb(62, 78, 55);
@@ -41,9 +41,12 @@
 }
 
 .d_api00_02{
+    
+
+
     width:22rem;
     height:20rem;
-  box-shadow: 0.1rem 0 0.1rem 0.1rem rgb(20, 20, 20);
+  box-shadow: 0.1rem 0 0.1rem 0.1rem rgb(36, 35, 35);
     overflow: scroll;
     background-color: rgb(36, 50, 59);
 }

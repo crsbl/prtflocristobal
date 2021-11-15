@@ -18,11 +18,12 @@
     width:50rem;
     height:24rem;
  
-background-color: rgb(23, 44, 53);
 
+
+background: linear-gradient(270deg,rgb(13, 16, 17) 2%, rgb(23, 44, 53) 49%, rgb(51, 103, 126) 100%);
     border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
     animation-name: grfc00;
-    animation-duration: 1s;
+    animation-duration: 0.3s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     display: flex;
