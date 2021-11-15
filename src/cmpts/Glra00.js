@@ -28,7 +28,7 @@ import React, {  useState,useContext } from 'react';
    const contxt_mstr_mg = useContext(contxt_amcn)
 
    const img_arry = [
-       [[0],["tibueron"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c1.jpg"]],
+       [[0],["tiburon"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c1.jpg"]],
        [[1],["Camaleon"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c2.jpg"]],
        [[2],["empuñadura"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c3.jpg"]],
        [[3],["Caballito de mar"], ["https://prtflocristobal.000webhostapp.com/img/GALERIA/c4.jpg"]],
