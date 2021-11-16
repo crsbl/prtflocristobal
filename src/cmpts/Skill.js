@@ -61,6 +61,9 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
 
 <div className={"d_sklgp00"  + std_skill.anmc00}>
 
+
+<h1 className='h1_skltitulo00 '>Descripcion</h1>
+
 <div className='d_skl_descripcion'>
 <p className='p_skl00 '>
 ||En constante aprendizaje, al igual en busca de dar la mejor ilustración,
@@ -71,6 +74,8 @@ el despliegue y demostración de la información tengan el protagonismo.
 </p>
 <img className='img_formal00' src={img_formal00}></img>
 </div>
+<h1 className='h1_skltitulo01 '>Nacionalidad: Chileno</h1>
+<h1 className='h1_skltitulo01 '>Residencia: Sexta Region</h1>
 
 <div  className='d_sklgp01'>
   
