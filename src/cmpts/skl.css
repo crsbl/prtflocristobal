@@ -277,7 +277,7 @@ height:15em;
 }
 
 .d_skl_descripcion{
-margin: 0rem 20vw 0 20vw ;
+width:50.4rem;
     display: flex;
    flex-flow: row nowrap;
    background-color: rgb(81, 161, 207);
