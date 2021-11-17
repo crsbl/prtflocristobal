@@ -73,7 +73,7 @@ background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85
 
 .h1_skltitulo00{
    
-    background-color: rgb(45, 128, 175);
+    background-color: rgb(72, 176, 202);
     padding: 1.2rem;
         user-select: none; 
         font-size: 1.2rem;
@@ -85,7 +85,7 @@ background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85
       font-size: 1.5rem;
       font-weight: 800;
       width:48rem;
-
+border-radius: 0.3rem 0.3rem 0 0;
 }
 
 .img_bandera00{
@@ -95,7 +95,7 @@ background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85
 
 .p_skl00{
    
-background-color: rgb(45, 128, 175);
+
 padding: 1rem;
     user-select: none; 
     font-size: 1.2rem;
@@ -279,8 +279,8 @@ margin: 0 0 0 2rem;
     filter: grayscale(20%);
 }
 .img_formal00{
-width:10rem;
-height:15em;
+width:7rem;
+height:12em;
 
 }
 
@@ -289,5 +289,6 @@ width:50.4rem;
     display: flex;
    flex-flow: row nowrap;
    background-color: rgb(81, 161, 207);
-
+   background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85%);
+   border-radius: 0 0 0 1rem;
 }
