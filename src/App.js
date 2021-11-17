@@ -233,12 +233,11 @@ const Contacto = ()=>{
 
 
 
+<img className='svg_inco' src={img_inco00}></img>
 
 
 
 
-
-<img className='img_inco00' src={img_inco00}></img>
 </div>
 {/*
 <div className='d_animacion00'>
