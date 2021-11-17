@@ -16,6 +16,7 @@ import img_css_01 from '../img/css01.svg'
 import img_js_01 from '../img/js01.svg'
 import img_react_01 from '../img/react01.svg'
 
+import img_bandera_00 from '../img/bandera00.svg'
 
 export const Skl00 = ()=>{
 
@@ -74,7 +75,7 @@ el despliegue y demostración de la información tengan el protagonismo.
 </p>
 <img className='img_formal00' src={img_formal00}></img>
 </div>
-<h1 className='h1_skltitulo01 '>Nacionalidad: Chileno</h1>
+<h1 className='h1_skltitulo01 '> Nacionalidad: Chileno </h1>
 <h1 className='h1_skltitulo01 '>Residencia: Sexta Region</h1>
 
 <div  className='d_sklgp01'>

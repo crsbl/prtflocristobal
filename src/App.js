@@ -14,6 +14,7 @@ import {Contx_scroll} from './cmpts/ctx00';
 import {Crud00} from './cmpts/crd';
 import {Canvs00} from './cmpts/canvs';
 import img_carta00 from './img/carta.svg' ;
+import img_inco00 from './img/svg_inco00.svg';
 
 function App() {
 
@@ -226,6 +227,18 @@ const Contacto = ()=>{
 
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+<img className='img_inco00' src={img_inco00}></img>
 </div>
 {/*
 <div className='d_animacion00'>
@@ -234,6 +247,14 @@ const Contacto = ()=>{
 
 </div>
  Un comentario JSX */}
+
+
+
+
+
+
+
+
 
 <div className='d_skl'>
 
