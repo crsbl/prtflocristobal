@@ -15,7 +15,7 @@ import {Crud00} from './cmpts/crd';
 import {Canvs00} from './cmpts/canvs';
 import img_carta00 from './img/carta.svg' ;
 import img_inco00 from './img/svg_inco00.svg';
-
+import img_inco01 from './img/svg_inco01.svg';
 function App() {
 
 
@@ -28,6 +28,8 @@ function App() {
 const [std_exm, setstd_exm] = useState(0)
 
 const [std_mnu, setstd_mnu] = useState(0)
+
+const [std_tono, setstd_tono] = useState(true)
 
 
 let std_croll = null
@@ -74,8 +76,17 @@ const Hadr = ()=>{
 
 
 
-
+//
   return<header>
+<div className='d_hdmn02' style={std_tono ? {justifyContent: "left"}: {justifyContent: "right"}}
+onClick={()=>{std_tono ? setstd_tono(false) :setstd_tono(true)}}
+>
+
+<div className='d_hdmn02_00' style={std_tono ? { backgroundColor:"rgb(218, 218, 218)"} : {backgroundColor:"rgb(148, 148, 148)"}} 
+
+></div>
+
+  </div>
 
 <div className='d_hdmn00'onClick={()=>{setstd_mnu(1)}}>
 <h1 className='h1_hdr01'>Proyectos</h1>
@@ -211,7 +222,7 @@ const Contacto = ()=>{
  
  // console.log("Total: "+tltlhgtscrll +"Posicion: "+e.currentTarget.scrollTop + "asd"+ slc_scrol01)
  }}>
-<div className='d_inco'>
+<div className='d_inco' style={std_tono ?{backgroundColor:"rgb(250, 255, 255)"}:{backgroundColor:"rgb(91, 94, 92)"}}>
 
 <div className='d_ttl_pfl'>
 
@@ -233,7 +244,7 @@ const Contacto = ()=>{
 
 
 
-<img className='svg_inco' src={img_inco00}></img>
+<img className='svg_inco' src={std_tono?  img_inco00 : img_inco01}></img>
 
 
 
@@ -255,7 +266,7 @@ const Contacto = ()=>{
 
 
 
-<div className='d_skl'>
+<div className='d_skl' style={std_tono ?{backgroundColor:"rgb(54, 150, 206)"}:{backgroundColor:"rgb(17, 69, 99)"}}>
 
 <h1 className='h1_ttl03'>PERFIL</h1>
 
@@ -263,7 +274,7 @@ const Contacto = ()=>{
 
 </div>
 
-<div className='d_ejrc'>
+<div className='d_ejrc' style={std_tono ?{backgroundColor:"rgb(13, 16, 17)"}:{backgroundColor:"rgb(46, 54, 53)"}}>
 <h1 className='h1_ttl03'>EJEMPLOS</h1>
 <div className='d_exm'>
 
