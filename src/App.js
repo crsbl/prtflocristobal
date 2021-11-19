@@ -107,8 +107,8 @@ onClick={()=>{std_tono ? setstd_tono(false) :setstd_tono(true)}}
 
 </div>
 
-<div className='d_hdmn04' onClick={()=>{setstd_mnu(2)}}>
-<h1 className='h1_hdr01'>Github</h1>
+<div className='d_hdmn04' >
+<a href="https://github.com/crsbl/prtflocristobal" target="_blank" className='h1_hdr01'>Github</a>
 
 </div>
 
@@ -169,12 +169,10 @@ const Contacto = ()=>{
 
 <img className='img_carta' src={img_carta00}></img>
 <h1 className='h1_contacto02'>z.edd36@gmail.com</h1>
+<h1 className='h1_contacto02'>+569 4869 7889</h1>
 </div>
 
-<div className='d_contacto02'>
-<h1 className='h1_contacto02'>Github</h1>
-<h1 className='h1_contacto02'>https://github.com/crsbl</h1>
-</div>
+
 
 </div>
 </div>

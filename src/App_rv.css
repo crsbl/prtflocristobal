@@ -42,7 +42,7 @@ header{
  
 }
 .d_hdmn01_contenedor00{
-    
+border-radius: 0 0 1rem 0;    
 width:7rem;
   overflow: hidden;
   }
@@ -52,7 +52,7 @@ width:7rem;
 width:7rem;
 }
 .h1_hdr02{
-    
+   
     font-size: 1.8rem;
    width:7rem;
 }
