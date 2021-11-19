@@ -78,25 +78,39 @@ const Hadr = ()=>{
 
 //
   return<header>
-<div className='d_hdmn02' style={std_tono ? {justifyContent: "left"}: {justifyContent: "right"}}
+
+  <div className='d_hdmn02_slc'>  
+<div className='d_hdmn02'>
+
+
+
+<div className='d_hdmn02_00' style={std_tono ? { backgroundColor:"rgb(218, 218, 218)", float:"left"} : {backgroundColor:"rgb(148, 148, 148)", float:"right"}} 
 onClick={()=>{std_tono ? setstd_tono(false) :setstd_tono(true)}}
->
-
-<div className='d_hdmn02_00' style={std_tono ? { backgroundColor:"rgb(218, 218, 218)"} : {backgroundColor:"rgb(148, 148, 148)"}} 
-
 ></div>
-
+</div>
   </div>
+
+
 
 <div className='d_hdmn00'onClick={()=>{setstd_mnu(1)}}>
 <h1 className='h1_hdr01'>Proyectos</h1>
 
   </div>
 
-  <div className='d_hdmn01' onClick={()=>{setstd_mnu(2)}}>
+<div className='d_hdmn01_contenedor00'>
+  <div className='d_hdmn01'>
+<h1 className='h1_hdr02'>Mas</h1>
+
+</div>
+<div className='d_hdmn03' onClick={()=>{setstd_mnu(2)}}>
 <h1 className='h1_hdr01'>Contacto</h1>
 
+</div>
 
+<div className='d_hdmn04' onClick={()=>{setstd_mnu(2)}}>
+<h1 className='h1_hdr01'>Github</h1>
+
+</div>
 
 </div>
 

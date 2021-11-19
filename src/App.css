@@ -16,32 +16,65 @@ body{
  
 }
 .d_hdmn00{
+  width:9rem;
 
-  
-  width:10rem;
-  height: 4rem;
-  
-  display: flex;
-  border:solid 0.1rem rgba(170, 170, 170, 0.514);
-flex-flow: column nowrap;
-align-items: center;
-justify-content: center;
 transition: 0.3s;
-border-radius: 0.3rem 0 0 0rem;
+
+height: 3.65rem;
 }
 .d_hdmn02{
-
-
-  width:4rem;
+width: 4rem;
   height: 2rem;
   margin:0 1rem 0 1rem;
-
-  border:solid 0.1rem rgba(170, 170, 170, 0.514);
-display: flex;
-
+ background-color: rgb(132, 147, 161);
+ border-radius: 5rem;
 transition: 0.3s;
-border-radius: 5rem;
+
 }
+.d_hdmn02_slc{
+  background-color: rgba(53, 62, 78, 0.774);
+  border-radius: 0 0 0rem 2rem;
+  height:3.65rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d_hdmn03{
+  width:9rem;
+  cursor: pointer;
+
+  display:none;
+ 
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+}
+.d_hdmn04{
+  width:9rem;
+cursor: pointer;
+
+  display: none;
+ 
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+}
+
+.d_hdmn01_contenedor00{
+  display: flex;
+  flex-flow: column nowrap;
+
+}
+
+.d_hdmn01_contenedor00:hover >  .d_hdmn03 {
+display: flex;
+}
+.d_hdmn01_contenedor00:hover >  .d_hdmn04 {
+  display: flex;
+  }
+
 
 .d_hdmn02_00{
   transition: 0.3s;
@@ -55,12 +88,11 @@ border-radius: 5rem;
 
 .d_hdmn01{
   
-    margin: 0.1rem;
     width:9rem;
-    height: 4rem;
-    border-radius: 0.2rem;
+
+  
     display: flex;
-    border:solid 0.1rem rgba(170, 170, 170, 0.514);
+   
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
@@ -73,20 +105,17 @@ header{
 
 
 transition: 0.3s;
-
 position: absolute;
-
+right:1vw;
 z-index: 8;
-  background-color:rgba(53, 62, 78, 0.774) ;
-padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-border-radius:0.1rem;
-height: 4rem;
-right: 1vw;
+overflow: hidden;
+border-radius:0 0 1rem 0;
+width:25rem;
 display: flex;
 flex-flow: row nowrap;
 justify-content: center;
-align-items: center;
-overflow: hidden; 
+
+
 
 }
 
@@ -463,7 +492,9 @@ transition: 1s;
   
 
 }
+.d_sklgp00 {
 
+}
 
 .d_grnal01::-webkit-scrollbar-thumb {
 
@@ -635,15 +666,35 @@ justify-content: space-around;
 
 }
 .h1_hdr01{
+width:7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.5rem 1rem 0.5rem 1rem;
   user-select: none; 
-  
+    background-color: rgba(53, 62, 78, 0.774);
   font-size: 2.1rem;  
   color: rgb(228, 228, 228);
   font-family: 'Lobster', cursive;
   font-weight: 800;
   text-shadow: 0.05rem 0.05rem 0.1rem rgb(88, 87, 87);
 }
-
+.h1_hdr02{
+  width:7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    user-select: none; 
+      background-color: rgba(53, 62, 78, 0.774);
+    font-size: 2.1rem;  
+    color: rgb(228, 228, 228);
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+    text-shadow: 0.05rem 0.05rem 0.1rem rgb(88, 87, 87);
+  }
 .h1_hdr01:hover{
  
   color: rgb(228, 235, 201);

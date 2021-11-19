@@ -3,29 +3,24 @@
 
 header{
          flex-flow: row nowrap;   
-    
-         width:99vw;
-         left:0; 
+
+         width:98vw;
+         left:0rem; 
          top:0;
                                                                                                                                                                                                                                                                                                                        
 }
-.d_hdmn00{
-
-    width:9.5rem;
-    height:3.5rem;  
-
-
-
+.d_hdmn02_slc{
+    height:3.25rem;
+    
 }
 
 .h1_hdr01{
     font-size: 1.8rem;  
+  
+    
 }
 
-.d_hdmn01{
-    width:9.5rem;
-    height:3.5rem;  
-}
+
 #Capa_1{
     transform: scale(0.8);
 }
@@ -38,8 +33,35 @@ header{
 .h1_ttl03{
     width:100vw;
 }
+.svg_inco{
+    width:100vw;
+}
 
+.d_hdmn00{
+  
+ 
+}
+.d_hdmn01_contenedor00{
+    
+width:7rem;
+  overflow: hidden;
+  }
+.d_hdmn01{
+ 
 
+width:7rem;
+}
+.h1_hdr02{
+    
+    font-size: 1.8rem;
+   width:7rem;
+}
+.d_hdmn03{
+    width:7rem;
+}
+.d_hdmn04{
+    width:7rem;
+}
 
 
 .h1_ttl02{

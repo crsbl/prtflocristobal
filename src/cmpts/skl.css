@@ -25,7 +25,7 @@ display: flex;
 align-items: center;
 flex-flow: column nowrap;
 border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
-padding: 1rem;
+
 }
 
 @keyframes skl00 {
@@ -285,7 +285,7 @@ height:12em;
 }
 
 .d_skl_descripcion{
-width:50.4rem;
+width:48rem;
     display: flex;
    flex-flow: row nowrap;
    background-color: rgb(81, 161, 207);
