@@ -77,7 +77,8 @@ el despliegue y demostración de la información tengan el protagonismo.
 </div>
 <h1 className='h1_skltitulo01 '> Nacionalidad: Chileno </h1>
 <h1 className='h1_skltitulo01 '>Residencia: Sexta Region</h1>
-
+<h1 className='h1_skltitulo01 '>Formacion: Aiep téc. nivel superior programación computacional
+</h1>
 <div  className='d_sklgp01'>
   
 {Stdo_cmnt.map((cmt)=>{
