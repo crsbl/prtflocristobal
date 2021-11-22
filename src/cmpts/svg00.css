@@ -1,0 +1,32 @@
+#svg_animacion_pc_formal{
+    z-index: 9;
+    width:13rem;
+    height:13rem;
+    transform: scale(1.5);
+    
+
+}
+
+.svg_formal0{fill:#A3BBC1;}
+	.svg_formal1{fill:#EAEAD7;}
+	.svg_formal2{fill:#E0DFC6;}
+	.svg_formal3{fill:#F4F2F1;}
+	.svg_formal4{fill:#8EACAD;}
+	.svg_formal5{fill:#646362;}
+	.svg_formal6{fill:#E2DCDC;}
+	.svg_formal7{fill:#C0CCCE;}
+	.svg_formal8{fill:#96B5BC;}
+	.svg_formal9{fill:#97B3B8;}
+	.svg_formal10{fill:#58595A;}
+	.svg_formal11{fill:#5B5C5C;}
+	.svg_formal12{fill:#A9BFC4;}
+	.svg_formal13{
+        animation-iteration-count: infinite;
+        animation-duration: 0.3s;
+        animation-name: animacion_svg_formal00;
+        opacity:0.02;fill:#faf8e8;enable-background:new    ;}
+
+
+@keyframes animacion_svg_formal00 {
+    50%{opacity:0.08}
+}

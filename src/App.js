@@ -16,6 +16,9 @@ import {Canvs00} from './cmpts/canvs';
 import img_carta00 from './img/carta.svg' ;
 import img_inco00 from './img/svg_inco00.svg';
 import img_inco01 from './img/svg_inco01.svg';
+import img_inco_final00 from './img/svg_inco_final00.svg';
+import img_inco_final01 from './img/svg_inco_final01.svg';
+
 function App() {
 
 
@@ -206,20 +209,20 @@ const Contacto = ()=>{
  
  cntx.stdo_p_scrol=slc_scrol01
  
- if(slc_scrol01 <8)
+ if(slc_scrol01 <7)
  {cntx.ptf.setstdo_ptf({
    anmc00:" prtf01_ts00 ",
    anmc01:" prtf02_ts00 ",
  })}
  
- if(slc_scrol01 >9)
+ if(slc_scrol01 >1)
  {cntx.ptf.setstdo_ptf({
    anmc00:" prtf01_ts01 ",
    anmc01:" prtf02_ts01 ",
  })}
  
  
- if(slc_scrol01 > 15)
+ if(slc_scrol01 > 12)
  {cntx.skill.setstdo_skll({
    anmc00:" skl01_ts01 ",
  })}
@@ -227,7 +230,7 @@ const Contacto = ()=>{
  
  
 
- if(slc_scrol01 > 70)
+ if(slc_scrol01 > 80)
  {cntx.exm.setstdo_exm({
    anmc00:" skl01_ts01 ",
  })}
@@ -283,7 +286,7 @@ const Contacto = ()=>{
 <h1 className='h1_ttl03'>PERFIL</h1>
 
 <Skl00/>
-
+<img className='svg_inco' src={std_tono?  img_inco_final00 : img_inco_final01}></img>
 </div>
 
 <div className='d_ejrc' style={std_tono ?{backgroundColor:"rgb(13, 16, 17)"}:{backgroundColor:"rgb(46, 54, 53)"}}>

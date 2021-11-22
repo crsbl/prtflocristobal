@@ -52,9 +52,9 @@ align-items: center;
 
 }
 .h1_skltitulo01{
-   margin: 1rem 0 0 0;
+  
    
-   border-radius: 0.3rem 0.3rem 1rem 1rem;
+   border-radius: 0rem 0.3rem 1rem 1rem;
 background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85%);
 
     padding: 1.2rem;
@@ -70,21 +70,40 @@ background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85
       width:48rem;
 
 }
+.h1_skltitulo02{
+    margin: 1rem 0 0 0;
+ width:48.4rem;
+ background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(39, 105, 136) 85%);
+border-radius: 1rem 0 0 0;
+ 
+     padding: 1rem;
+         user-select: none; 
+        
+         color: rgb(135, 203, 235);
 
+         font-weight: 800;
+         font-family: monospace;
+
+       font-size: 1.5rem;
+       font-weight: 800;
+  
+ 
+ }
 .h1_skltitulo00{
+    margin: 2rem 0 0 0;
    
-    background-color: rgb(116, 166, 199);
+    background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(39, 105, 136) 85%);
     padding: 1.2rem;
         user-select: none; 
         font-size: 1.2rem;
-        color: rgb(221, 213, 213);
+        color: rgb(135, 203, 235);
         text-shadow: -0.01rem -0.01rem 0.1rem rgb(219, 217, 217);
         font-weight: 600;
         font-family: monospace;
       text-align:left;
       font-size: 1.5rem;
       font-weight: 800;
-      width:45.6rem;
+      width:48rem;
 border-radius: 0.3rem 0.3rem 0 0;
 }
 
@@ -101,7 +120,7 @@ padding: 1rem;
     font-size: 1.2rem;
     color: rgb(221, 213, 213);
     text-shadow: -0.01rem -0.01rem 0.1rem rgb(219, 217, 217);
-    font-weight: 600;
+    font-weight: 700;
     font-family: monospace;
   text-align:left;
 
@@ -172,7 +191,15 @@ justify-content: center;
 border-radius:0 0 5rem 5rem;
 
 transition: 0.5s;
+
+
 }
+
+
+
+
+
+
 .d_skl01:hover{
     transform: translate(-0.2rem, 0);
     background-color: rgb(53, 133, 199);
@@ -187,6 +214,21 @@ transition: 0.5s;
 .skl01_ts01{
     opacity: 1;
     transform: translate(0rem,0rem);
+}
+
+.h2_animacion_svg_formal{
+    position: absolute;
+animation-iteration-count: infinite;
+animation-duration:2s ;
+animation-timing-function: linear;
+animation-name: animacion_h2_svg_formal00;
+z-index: 9;
+}
+
+@keyframes animacion_h2_svg_formal00 {
+    100%{
+        transform:  rotate(360deg);
+    }
 }
 
 
@@ -208,12 +250,33 @@ align-items: center;
   
 }
 
+.img_svg_habilidades_fondo00{
+    position: absolute;
+    z-index: 1;
+    width: 8rem;
+    height:8rem;
+    background-repeat: no-repeat;
+    animation-name:animacion_svg_habilidades_fondo00;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+@keyframes animacion_svg_habilidades_fondo00{
+    100%{transform: rotate(360deg);
+    }
+}
 
-
+.img_svg_habilidades_frente00{
+    z-index: 2;
+    position: absolute;
+}
 
 .d_sklimg00{
     margin: 1rem 0 0 0;
-    width:5rem; height:5rem;  
+    width:5rem; height:5rem;
+display: flex;
+justify-content: center;
+align-items: center;
     background-Size:5rem 5rem; 
     background-Repeat:no-repeat;
     background-color: rgb(182, 192, 197);
@@ -225,31 +288,16 @@ filter: grayscale(40%);
 .d_ilustracion_svg{
 
   margin: 2rem 0 0 0;  
-    width:20rem;
+    width:22rem;
  
-    height:13.3rem;
+    height:15.3rem;
     display: flex;
-   flex-flow: row nowrap;
-    justify-content: space-around;
+
+    justify-content: center;
     align-items: center;
     position: relative;
 }
-.d_ilustracion_svg00{
-   
-    width:22rem;
-    
-    border-radius: 50%;
-    background-color: #428ab9;
-  box-shadow: inset 0 0 0.1rem 0.1rem #458bb9;
-  top:8rem;
-  height:7rem; 
-      position: absolute;
-      z-index: 8;
-}
-
-.d_ilustracion_svg00:hover{
-  
-}
+ 
 
 .img_res00{
     width:19rem;
@@ -291,4 +339,5 @@ width:48rem;
    background-color: rgb(81, 161, 207);
    background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85%);
    border-radius: 0 0 0 1rem;
+   padding: 1.2rem;
 }

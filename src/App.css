@@ -34,7 +34,7 @@ transition: 0.3s;
 .d_hdmn02_slc{
   background-color: rgba(53, 62, 78, 0.774);
   border-radius: 0 0 0rem 2rem;
-  height:3.65rem;
+  height:3.6rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,7 +358,7 @@ overflow: hidden;
 
 .d_skl{
   width:99vw;
-  padding: 0 0 2rem 0;
+  padding: 0 0 0rem 0;
  transition: 0.3s;
 
 
@@ -463,9 +463,9 @@ border-bottom: solid 0.1rem rgb(122, 122, 122);
 
 .d_exm00{
   
-  box-shadow: inset -2rem -1rem 0 0  rgb(19, 22, 26);
+  box-shadow: inset -2rem -1rem 0 0  rgb(52, 60, 70);
 background: rgb(39, 61, 80);
-border-radius: 0rem 0rem 2rem 0;
+
 justify-content: space-around;
 padding: 0 1rem 0 0;
 display: flex;
@@ -588,6 +588,7 @@ text-align: center;
 }
 
 .h1_ttl03{
+  margin: 4rem 0 0 0;
   user-select: none; 
 height:4.3rem;
 width:50vw;
@@ -603,7 +604,7 @@ border-radius: 0 0 0.3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-border-bottom: solid 0.2rem rgb(54, 127, 177);
+
 }
 
 
