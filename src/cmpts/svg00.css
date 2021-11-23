@@ -2,7 +2,7 @@
     z-index: 9;
     width:13rem;
     height:13rem;
-    transform: scale(1.5);
+    transform: scale(1.7);
     
 
 }
@@ -24,9 +24,12 @@
         animation-iteration-count: infinite;
         animation-duration: 0.3s;
         animation-name: animacion_svg_formal00;
-        opacity:0.02;fill:#faf8e8;enable-background:new    ;}
+        opacity:0.02;fill:#e6e4d9;enable-background:new    ;}
 
 
 @keyframes animacion_svg_formal00 {
-    50%{opacity:0.08}
+  
+    50%{opacity:0.08 ;
+        fill:#f0f0c8;
+    }
 }

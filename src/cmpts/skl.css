@@ -120,8 +120,6 @@ border-radius: 0.3rem 0.3rem 0 0;
 }
 
 .p_skl00{
-   
-
 padding: 1rem;
     user-select: none; 
     font-size: 1.2rem;
@@ -133,6 +131,9 @@ padding: 1rem;
   transition: 0.3s;
 
 }
+
+
+
 .p_skl00:hover{
     color: rgb(233, 224, 224); 
     font-weight: 800; 
@@ -352,7 +353,7 @@ height:12em;
 width:48rem;
     display: flex;
    flex-flow: row nowrap;
-
+transition: 0.3s;
    background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85%);
    border-radius: 0 0 0 1rem;
    padding: 1.2rem;

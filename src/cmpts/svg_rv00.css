@@ -1,0 +1,11 @@
+@media only screen and (max-width:426px){
+    
+    #svg_animacion_pc_formal{
+    z-index: 9;
+    width:13rem;
+    height:13rem;
+    transform: scale(1.5);
+    
+
+}}
+
