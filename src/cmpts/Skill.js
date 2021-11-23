@@ -12,8 +12,10 @@ import img_html_01 from '../img/html01.svg'
 import img_css_01 from '../img/css01.svg'
 import img_js_01 from '../img/js01.svg'
 import img_react_01 from '../img/react01.svg'
-
-
+import ico_descripcion00 from '../img/ico_descripcion.svg'
+import ico_casa00 from '../img/ico_casa00.svg'
+import ico_lapiz00 from '../img/ico_lapiz00.svg'
+import ico_mundo00 from '../img/ico_mundo00.svg'
 export const Skl00 = ()=>{
 
 
@@ -64,7 +66,7 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
 <div className={"d_sklgp00"  + std_skill.anmc00}>
 
 
-<h1 className='h1_skltitulo00 '>Descripcion</h1>
+<h1 className='h1_skltitulo00 '><img className='img_ico_skill00' src={ico_descripcion00}></img> Descripcion </h1>
 
 <div className='d_skl_descripcion'>
 <p className='p_skl00 '>
@@ -76,11 +78,11 @@ el despliegue y demostración de la información tengan el protagonismo.
 </p>
 
 </div>
-<h1 className='h1_skltitulo02 '> Nacionalidad</h1>
+<h1 className='h1_skltitulo02 '><img className='img_ico_skill00' src={ico_mundo00}></img> Nacionalidad</h1>
 <h1 className='h1_skltitulo01 '>  Chileno </h1>
-<h1 className='h1_skltitulo02 '> Residencia</h1>
+<h1 className='h1_skltitulo02 '><img className='img_ico_skill00' src={ico_casa00}></img> Residencia</h1>
 <h1 className='h1_skltitulo01 '> Sexta Region</h1>
-<h1 className='h1_skltitulo02 '> Formacion</h1>
+<h1 className='h1_skltitulo02 '><img className='img_ico_skill00' src={ico_lapiz00}></img> Formacion</h1>
 <h1 className='h1_skltitulo01 '> Aiep téc. nivel superior programación computacional
 </h1>
 <div  className='d_sklgp01'>
