@@ -60,16 +60,23 @@ background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85
     padding: 1.2rem;
         user-select: none; 
         font-size: 1.2rem;
-        color: rgb(221, 213, 213);
+        color: rgb(218, 216, 216);
         text-shadow: -0.01rem -0.01rem 0.1rem rgb(219, 217, 217);
         font-weight: 600;
         font-family: monospace;
       text-align:left;
       font-size: 1.2rem;
-      font-weight: 800;
+      font-weight: 750;
       width:48rem;
-
+transition: 0.3s;
 }
+.h1_skltitulo01:hover{
+    color: rgb(233, 224, 224); 
+    font-weight: 800; 
+    text-decoration: underline;
+}
+
+
 .h1_skltitulo02{
     margin: 1rem 0 0 0;
  width:48.4rem;
@@ -120,11 +127,21 @@ padding: 1rem;
     font-size: 1.2rem;
     color: rgb(221, 213, 213);
     text-shadow: -0.01rem -0.01rem 0.1rem rgb(219, 217, 217);
-    font-weight: 700;
+    font-weight: 750;
     font-family: monospace;
   text-align:left;
+  transition: 0.3s;
 
 }
+.p_skl00:hover{
+    color: rgb(233, 224, 224); 
+    font-weight: 800; 
+    text-shadow: -0.01rem -0.01rem 0.1rem rgb(235, 232, 232);
+}
+
+
+
+
 .p_skl01{
 
     user-select: none; 
@@ -190,7 +207,7 @@ justify-content: center;
 
 border-radius:0 0 5rem 5rem;
 
-transition: 0.5s;
+transition: 0.2s;
 
 
 }
@@ -202,8 +219,7 @@ transition: 0.5s;
 
 .d_skl01:hover{
     transform: translate(-0.2rem, 0);
-    background-color: rgb(53, 133, 199);
-    border-radius:5rem 0 5rem 0;
+
 }
 
 
@@ -336,8 +352,9 @@ height:12em;
 width:48rem;
     display: flex;
    flex-flow: row nowrap;
-   background-color: rgb(81, 161, 207);
+
    background: linear-gradient(270deg, rgb(54, 150, 206)  13%, rgb(43, 126, 165) 85%);
    border-radius: 0 0 0 1rem;
    padding: 1.2rem;
 }
+

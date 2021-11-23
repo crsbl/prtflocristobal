@@ -592,7 +592,7 @@ text-align: center;
   user-select: none; 
 height:4.3rem;
 width:50vw;
-background-color: rgba(75, 126, 170, 0.432);
+background: linear-gradient(0deg, rgba(113, 158, 184, 0.63) 37%, rgba(148, 181, 201, 0.534) 77%);
 padding: 1rem 0 1rem 0;
   font-size: 3.5rem;
   font-weight: 800;
