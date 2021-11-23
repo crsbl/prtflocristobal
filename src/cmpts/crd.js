@@ -118,14 +118,23 @@ const handdle_inp = (evn)=>{
 const handdle_buscar = (evn)=>{
    
     
-
     const value = evn.currentTarget.value
+
+ 
+
+
+  
     setstds_inpus({...stds_inpus, [evn.target.name]:value })
     Cnslta_pst(4, 'https://prtflocristobal.000webhostapp.com/bknd/bscr_dts.php', [stds_inpus.buscar])
 
 
     
-    
+    if(value.length == 0 )
+    {
+        setstds_inpus({...stds_inpus, [evn.target.name]:value })
+        itms_tdos()
+
+    }
  
 
 
@@ -195,6 +204,8 @@ itms_tdos()
 <input spellCheck='false' autoComplete="off" className='inp_crd_00'  
 name='buscar'
 value={stds_inpus.buscar}  onChange={handdle_buscar}
+
+
 ></input>
 </div>
 
