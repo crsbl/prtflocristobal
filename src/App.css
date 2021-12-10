@@ -370,16 +370,17 @@ transition: 0.3s;
 
 .d_inco{
 width:99vw;
-min-height:45rem;
+min-height:50rem;
 transform: rotate3d(20deg);
 transition: 0.3s;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
+position: relative;
 flex-flow: column nowrap;
 padding: 8rem 0 0 0;
 overflow: hidden;
+
 }
 
 
@@ -598,7 +599,7 @@ align-items: center;
 
 
 .d_ttl_pfl{
-
+z-index: 1;
   width:65vw;
   height:16rem;
 display: flex;

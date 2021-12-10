@@ -87,7 +87,7 @@ position: absolute;
 #ola_borde_barco00{
 animation-name: ola_movimiento_barco00;
 animation-iteration-count: infinite;
-animation-duration: 5s;
+animation-duration: 0.5s;
 	
 }
 
@@ -97,7 +97,7 @@ animation-duration: 5s;
 
 
 50%{
-	d:path("M17.8,55.8c1.7-1.2,4.4-2.7,7.7-3.1c0.4-0.1,1.8-0.2,3.8-0.1c2.2,0.1,3.8,0.6,4.9,1c0,0,3.6,1,8.4,1.7 c1.7,0.3,1.5,0.1,9.6,0.4c5.7,0.2,5.9,0.3,7.5,0.2c1.5-0.1,1.4-0.2,7.7-1c5-0.6,5.2-0.6,6.4-0.9c2.7-0.7,3-1.2,6.1-2 c2.6-0.7,5.3-1.3,6-0.3c0.5,0.7,0,1.9-0.2,2.3c-1.9,4.2-20.4,4.4-29.1,4.3");
+	d:path("M18.9,56c0-1.3,3-3.8,5.4-3.6c0.8,0.1,1.4,0.5,2.4,0.3c1.5-0.4,1.7-1.6,2.8-1.7c1.3-0.1,1.5,1.5,3.2,1.9 c1.8,0.4,2.6-1.3,4.2-0.8c1.6,0.4,1.6,2.1,3,2.2c1.2,0.1,1.4-0.9,2.8-0.9c1.6,0,1.8,1.3,3.6,1.6c1.7,0.3,2.1-0.9,4.2-1.1 c2.5-0.2,2.7,1.5,5.2,1.5c2.8,0,3.3-2.2,6.3-2.1c1.7,0.1,1.8,0.8,4.1,0.9c0.9,0,2.4,0.1,4.1-0.7c1.8-0.8,1.5-1.7,3-2.2 c2-0.8,2.7,0.6,5.6,0.2c1.9-0.3,2.5-1,3.5-0.6c1,0.5,1.6,1.9,1.5,2.6c-0.3,2.1-6.8,3.1-28.8,4.4C32.1,59.4,18.9,57.1,18.9,56z");
 }
 
 
@@ -109,11 +109,11 @@ animation-duration: 5s;
 @keyframes movimiento_barco {
 	
 
-	25%{transform: rotate(5deg) translate(2rem,1rem);
+	25%{transform: rotate(5deg) translate(2rem,1.3rem);
 }
 
 75%{
-	transform: rotate(-5deg) translate(-1rem,0rem);
+	transform: rotate(-5deg) translate(-1rem,0.3rem);
 }
 
 
@@ -121,19 +121,28 @@ animation-duration: 5s;
 
 
 
-	.barco00_st0{fill:#D69C62;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st1{fill:#D8AA82;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st2{fill:#DBAF8F;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st3{fill:#CEA68A;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st4{fill:#CCBC93;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st5{fill:#E3BA9C;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st6{fill:#D8B59E;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st7{fill:#E0BFA9;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st8{fill:#E8C5AC;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st9{fill:#F5CDB0;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
-	.barco00_st10{fill:#F7F7DF;}
-	.barco00_st11{fill:#D6B996;}
-	.barco00_st12{fill:none;stroke:#000000;stroke-width:1.000000e-02;stroke-miterlimit:10;}
+
+
+	.Barco00_st0{fill:#D69C62;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st1{fill:#D8AA82;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st2{fill:#DBAF8F;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st3{fill:#CEA68A;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st4{fill:#CCBC93;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st5{fill:#E3BA9C;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st6{fill:#E8C5AC;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st7{fill:#F5CDB0;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st8{fill:#F7F7DF;}
+	.Barco00_st9{fill:#D6B996;}
+	.Barco00_st10{fill:none;stroke:#000000;stroke-width:1.000000e-02;stroke-miterlimit:10;}
+	.Barco00_st11{stroke:#F6F6F6;stroke-width:0.25;stroke-miterlimit:10;}
+	
+	.Barco00_st13{fill:#D8B59E;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st14{fill:#E8D4C9;stroke:#CA9E67;stroke-width:1.000000e-02;stroke-miterlimit:10;}
+	.Barco00_st15{fill:#D8CAC3;stroke:#CA9E67;stroke-width:1.000000e-02;stroke-miterlimit:10;}
+	.Barco00_st16{fill:#E0BFA9;stroke:#CA9E67;stroke-width:0.1;stroke-miterlimit:10;}
+	.Barco00_st17{fill:#CEA78E;}
+	.Barco00_st18{fill:#D8B295;}
+
 
 
 #vela_01{
@@ -172,3 +181,31 @@ d:path("M52,35c-1.2,1.8-8.8-3.2-18.9-0.8c-1,0.2-2,0.5-2.9,0.8c2-2.1,5.8-6.5,7.5-
 
 
   /*Barco Fin */ 
+
+
+
+  /*Nubes Inicio  */
+
+
+  .img_nubes{
+  position: absolute;
+z-index: 0;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+opacity: 0;
+
+}
+
+
+@keyframes nube_movimiento00 {
+	0%{display: block;
+		transform: translate(110vw);}
+
+	30%{opacity: 0.6;}
+    80%{opacity:0.2;}
+
+	100%{display: block;
+		transform: translate(-110vw);}
+}
+
+  /*Nubes Fin  */

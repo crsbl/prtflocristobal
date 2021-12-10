@@ -14,7 +14,7 @@ import {Contx_scroll} from './cmpts/ctx00';
 import {Crud00} from './cmpts/crd';
 import {Canvs00} from './cmpts/canvs';
 import {Svg_mar} from './cmpts/svg_vista';
-
+import {Svg_nubes} from './cmpts/svg_vista';
 import img_carta00 from './img/carta.svg' ;
 import img_inco00 from './img/svg_inco00.svg';
 import img_inco01 from './img/svg_inco01.svg';
@@ -245,7 +245,7 @@ const Contacto = ()=>{
  
  // console.log("Total: "+tltlhgtscrll +"Posicion: "+e.currentTarget.scrollTop + "asd"+ slc_scrol01)
  }}>
-<div className='d_inco' style={std_tono ?{backgroundColor:"rgb(250, 255, 255)"}:{backgroundColor:"rgb(91, 94, 92)"}}>
+<div className='d_inco' style={std_tono ?{backgroundColor:"rgb(228, 239, 241)"}:{backgroundColor:"rgb(91, 94, 92)"}}>
 
 <div className='d_ttl_pfl'>
 
@@ -259,8 +259,10 @@ const Contacto = ()=>{
 <Ptf00/>
 
 
-</div>
 
+
+</div>
+<Svg_nubes></Svg_nubes>
 <Svg_mar estado_dia={std_tono}/>
 
 
