@@ -31,6 +31,33 @@ width: 4rem;
 transition: 0.3s;
 
 }
+.d_svg_animacion_mar00{
+position: relative;
+
+  width: 338rem;
+height: 21rem;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+
+
+}
+.d_contenedor_mar{
+  position: absolute;
+
+    width: 338rem;
+  height: 7rem;
+  background-color: rgb(161, 188, 206);
+  
+  }
+.d_contenedor_bote{
+  position: absolute;
+  width: 33rem;
+height:21rem;
+
+}
+
+
 .d_hdmn02_slc{
   background-color: rgba(53, 62, 78, 0.774);
   border-radius: 0 0 0rem 2rem;
@@ -343,7 +370,7 @@ transition: 0.3s;
 
 .d_inco{
 width:99vw;
-height:28rem;
+min-height:45rem;
 transform: rotate3d(20deg);
 transition: 0.3s;
 display: flex;
@@ -358,7 +385,7 @@ overflow: hidden;
 
 .d_skl{
   width:99vw;
-  padding: 0 0 0rem 0;
+  padding: 10rem 0 0rem 0;
  transition: 0.3s;
 
 
@@ -383,8 +410,40 @@ justify-content: center;
 height:auto;
 transition: 0.3s;
 }
+.svg_inco_mar_animacion00{
+  width:50vw;
+height: auto;
+position:absolute;
 
+animation-iteration-count: infinite;
 
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes animacion_svg_mar00 {
+
+  20%{transform: translate(-2rem, -0rem); opacity: 0.9;}
+  40%{transform: translate(0rem, -0rem);opacity: 0.8}
+  60%{transform: translate(3rem, -0rem);opacity: 0.7}
+  80%{transform: translate(1rem, -0rem);opacity: 0.9}
+
+}
+@keyframes animacion_svg_mar01 {
+
+  20%{transform: translate(-2rem, 0.8rem);}
+  40%{transform: translate(0rem, 0.6rem);}
+  60%{transform: translate(3rem, 1rem);}
+  80%{transform: translate(1rem, 0.5rem);}
+
+}
+@keyframes animacion_svg_mar02 {
+
+  20%{transform: translate(-2rem, 1rem);}
+  40%{transform: translate(0rem, 1.2rem);}
+  60%{transform: translate(3rem, 1.2rem);}
+  80%{transform: translate(1rem, 1.3rem);}
+
+}
 .st0inco00{
 
   fill:#4F8BA3;}
@@ -588,17 +647,17 @@ text-align: center;
 }
 
 .h1_ttl03{
-  margin: 4rem 0 0 0;
+ 
   user-select: none; 
 height:4.3rem;
-width:50vw;
-background: linear-gradient(0deg, rgba(113, 158, 184, 0.63) 37%, rgba(148, 181, 201, 0.534) 77%);
+width:30vw;
+background: linear-gradient(0deg, rgba(56, 121, 206, 0.63) 20%, rgb(54, 150, 206) 77%);
 padding: 1rem 0 1rem 0;
   font-size: 3.5rem;
   font-weight: 800;
   font-family: sans-serif;
   color:rgb(221, 219, 219); 
-border-radius: 0 0 0.3rem;
+border-radius: 0 0 2rem 2rem;
   text-align: center;
   text-shadow: -0.05rem -0.05rem 0.1rem rgb(151, 150, 150);
   display: flex;

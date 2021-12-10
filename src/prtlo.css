@@ -91,14 +91,8 @@ transition: 0.7s;
   position: absolute; 
 }
 
-.prtf01_ts00{
-  height:4.3rem;
-  
-}
-.prtf01_ts01{
-  height:1rem;
-  transition: 0.7s;
-}
+
+
 
 .d_ptf03_00{
   z-index: 5;
@@ -113,13 +107,6 @@ left:1.5rem;
   transition: 0.7s;
 }
 
-.prtf02_ts00{
-  top:3.5rem;
-}
-.prtf02_ts01{
-  top:0.3rem;
-  transform: rotateX(50deg);
-}
 
 
 .d_ptf03_00_00{

@@ -51,7 +51,7 @@ const Svg_pc_cod = ()=>{
 
 
 const [std_skill, setstd_skill] = useState({
-  anmc00:" skl01_ts00 ",
+  anmc00: { opacity:"0", transform: "translate(5rem,0rem)"},
 })
 
 
@@ -63,7 +63,7 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
 
 
 
-<div className={"d_sklgp00"  + std_skill.anmc00}>
+<div className={"d_sklgp00"} style={std_skill.anmc00}>
 
 
 <h1 className='h1_skltitulo00 '><img className='img_ico_skill00' src={ico_descripcion00}></img> Descripcion </h1>
@@ -72,18 +72,18 @@ cntx_skll00.skill.f_obn_stdo(std_skill, setstd_skill)
 <p className='p_skl00 '>
 ||En constante aprendizaje, al igual en busca de dar la mejor ilustración,
 frente a los diferentes desarrollos, tanto desafiantes como más ensayados,
-no me obstaculizó ante la frustración, concuerdo en un resultado satisfactorio donde
+no me obstaculizo ante la frustración, concuerdo en un resultado satisfactorio donde
 el despliegue y demostración de la información tengan el protagonismo.
 
 </p>
 
 </div>
 <h1 className='h1_skltitulo02 '><img className='img_ico_skill00' src={ico_mundo00}></img> Nacionalidad</h1>
-<h1 className='h1_skltitulo01 '>  Chileno </h1>
+<h1 className='h1_skltitulo01 '>  Chileno</h1>
 <h1 className='h1_skltitulo02 '><img className='img_ico_skill00' src={ico_casa00}></img> Residencia</h1>
-<h1 className='h1_skltitulo01 '> Sexta Region</h1>
+<h1 className='h1_skltitulo01 '> Sexta región</h1>
 <h1 className='h1_skltitulo02 '><img className='img_ico_skill00' src={ico_lapiz00}></img> Formacion</h1>
-<h1 className='h1_skltitulo01 '> Aiep téc. nivel superior programación computacional
+<h1 className='h1_skltitulo01 '> AIEP Téc. Nivel Superior Programación Computacional.
 </h1>
 <div  className='d_sklgp01'>
   
@@ -92,7 +92,7 @@ el despliegue y demostración de la información tengan el protagonismo.
 
 
 
-    return<div key={cmt[0]} className={"d_skl01" + std_skill.anmc00} >
+    return<div key={cmt[0]} className={"d_skl01" } style={std_skill.anmc00} >
         <div className='d_skl02'>
         <h1 className='h1_skl00'>{cmt[0]}</h1> 
 

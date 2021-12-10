@@ -13,11 +13,19 @@ import {Api_rd00} from './cmpts/Api_rd';
 import {Contx_scroll} from './cmpts/ctx00';
 import {Crud00} from './cmpts/crd';
 import {Canvs00} from './cmpts/canvs';
+import {Svg_mar} from './cmpts/svg_vista';
+
 import img_carta00 from './img/carta.svg' ;
 import img_inco00 from './img/svg_inco00.svg';
 import img_inco01 from './img/svg_inco01.svg';
 import img_inco_final00 from './img/svg_inco_final00.svg';
 import img_inco_final01 from './img/svg_inco_final01.svg';
+
+import img_mar_svg00 from './img/mar/svg_mar00.svg';
+import img_mar_svg01 from './img/mar/svg_mar01.svg';
+import img_mar_svg02 from './img/mar/svg_mar02.svg';
+
+
 
 function App() {
 
@@ -46,8 +54,8 @@ const Ptf00 = ()=>{
 
 
   const [std_prtf, setstd_prtf] = useState({
-    anmc00:" prtf01_ts00 ",
-    anmc01:" prtf02_ts00 ",
+    anmc00:{height:"4.3rem"},
+    anmc01:{top:"3.5rem"},
   })
 
   cntx.ptf.f_obn_stdo(std_prtf, setstd_prtf)
@@ -61,13 +69,13 @@ const Ptf00 = ()=>{
 <div className='d_ptf02_02'></div>
 <div className='d_ptf02_03'></div>
 
-<div className={'d_ptf03'+ std_prtf.anmc00}>
+<div className='d_ptf03' style={std_prtf.anmc00}>
 
-<div className={'d_ptf03_00' + std_prtf.anmc01}>
+<div className='d_ptf03_00' style={std_prtf.anmc01}>
 <div className='d_ptf03_00_00'></div>
 </div>
 
-<div className={'d_ptf04_00' + std_prtf.anmc01}>
+<div className='d_ptf04_00'  style={std_prtf.anmc01}>
 <div className='d_ptf04_00_00'></div>
 </div>
 </div>
@@ -211,20 +219,20 @@ const Contacto = ()=>{
  
  if(slc_scrol01 <7)
  {cntx.ptf.setstdo_ptf({
-   anmc00:" prtf01_ts00 ",
-   anmc01:" prtf02_ts00 ",
+   anmc00:{height:"4.3rem"},
+   anmc01:{top:"3.5rem"},
  })}
  
  if(slc_scrol01 >1)
  {cntx.ptf.setstdo_ptf({
-   anmc00:" prtf01_ts01 ",
-   anmc01:" prtf02_ts01 ",
+   anmc00:{height:"1rem", transition:" 0.7s"},
+   anmc01:{ top:"0.3rem", transform: "rotateX(50deg)"},
  })}
  
  
  if(slc_scrol01 > 12)
  {cntx.skill.setstdo_skll({
-   anmc00:" skl01_ts01 ",
+   anmc00:  {opacity: "1",transform: "translate(0rem,0rem)"},
  })}
 
  
@@ -253,19 +261,48 @@ const Contacto = ()=>{
 
 </div>
 
+<Svg_mar/>
 
 
 
 
 
+{/* 
+<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'50vw',animationName:"animacion_svg_mar01", animationDuration: "6s",animationDirection:"reverse"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'75vw',animationName:"animacion_svg_mar01", animationDuration: "5s",animationDirection:"reverse"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'100vw',animationName:"animacion_svg_mar01", animationDuration: "6s",animationDirection:"reverse"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'125vw',animationName:"animacion_svg_mar01", animationDuration: "5s"}}></img>
 
-<img className='svg_inco' src={std_tono?  img_inco00 : img_inco01}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"0vw",animationName:"animacion_svg_mar00", animationDuration: "7.5s"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"50vw",animationName:"animacion_svg_mar00", animationDuration: "6s"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar00", animationDuration: "4.5s"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar00", animationDuration: "4s"}}></img>
+
+
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"0vw",animationName:"animacion_svg_mar02", animationDuration: "7.8s",animationDirection:"reverse"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"50vw",animationName:"animacion_svg_mar02", animationDuration: "8s",animationDirection:"reverse"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar02", animationDuration: "8.1s",animationDirection:"reverse"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar02", animationDuration: "7.9s",animationDirection:"reverse"}}></img>
+
+
+
+*/}
+
+{/*
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{animationDirection:'reverse', animationDuration: "5s"}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{left:'-99vw',animationDirection:'reverse'}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{left:"99vw",animationDelay:'14s',animationDuration:'14s'}}></img>
+<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{left:"99vw",animationDuration:'14s'}}></img>
+
+*/ }
 
 
 
 
 </div>
 {/*
+//<img className='svg_inco' src={std_tono?  img_inco00 : img_inco01}></img>
+
 <div className='d_animacion00'>
 
 <div className='d_animacion00_01'></div>
