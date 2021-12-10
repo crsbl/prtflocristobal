@@ -261,7 +261,7 @@ const Contacto = ()=>{
 
 </div>
 
-<Svg_mar/>
+<Svg_mar estado_dia={std_tono}/>
 
 
 
