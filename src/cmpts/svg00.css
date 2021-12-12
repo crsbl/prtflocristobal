@@ -233,3 +233,82 @@ opacity:0.1;
 
 
   }
+
+
+  /* Luna */
+
+	.luna00_st0{fill:#F4F4F4;}
+	.luna00_st1{fill:#EBE8E8;}
+	.luna00_st2{fill:#F8F7F7;}
+	.luna00_st3{fill:#EFEDED;}
+	.luna00_st4{fill:#EDEBEB;}
+	.luna00_st5{fill:#EDEDED;}
+	.luna00_st6{fill:#E0DCDC;}
+	.luna00_st7{fill:#FFFBFB;}
+	.luna00_st8{fill:#E8E6E6;}
+	.luna00_st9{fill:#EAEAEA;}
+	.luna00_st10{fill:#FDFDFD;}
+	.luna00_st11{fill:#E8E8E8;}
+
+#svg_luna{
+	box-shadow:inset 0 0 0.3rem 0.3rem rgba(255, 255, 255, 0.178),
+	 0 0 0.7rem 0.7rem rgba(255, 255, 255, 0.178);
+	 animation-name: luz_luna;
+	 animation-iteration-count: infinite;
+	 animation-timing-function: linear;
+	 animation-duration: 0.7s;
+}
+
+
+
+
+.d_contenedor_luna00{
+	width:10rem;
+	height:10rem;
+	position: absolute;
+	top:7rem;
+	left:41vw;
+	z-index: 0;
+
+	
+}
+
+
+#svg_luna{
+	border-radius: 50%;
+	
+}
+
+@keyframes luz_luna {
+	
+50%{	box-shadow:inset 0 0 0.2rem 0.2rem rgba(255, 255, 255, 0.089),
+	0 0 1rem 1rem rgba(255, 255, 255, 0.185);
+
+}
+
+}
+
+
+.d_sol00{
+	width:9rem;
+	height:9rem;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 235);
+	position:absolute;
+	top:7rem;
+	left:42vw;
+	z-index: 0;
+	box-shadow:inset 0 0 0.7rem 0.7rem white, 0 0 0.7rem 0.7rem white;
+	animation-name: luz_sol00;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+animation-duration: 0.7s;
+}
+
+
+@keyframes luz_sol00 {
+	
+	50%{
+		box-shadow:inset 0 0 0.7rem 0.7rem white, 0 0 1rem 1rem white;
+	}
+}

@@ -767,7 +767,7 @@ justify-content: space-around;
 
 }
 .h1_hdr01{
-
+width:7rem;
   display: flex;
   align-items: center;
   justify-content: center;

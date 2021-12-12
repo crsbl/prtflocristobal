@@ -14,7 +14,9 @@ import {Contx_scroll} from './cmpts/ctx00';
 import {Crud00} from './cmpts/crd';
 import {Canvs00} from './cmpts/canvs';
 import {Svg_mar} from './cmpts/svg_vista';
+import {Sol00}from'./cmpts/svg_vista';
 import {Estrellas_div} from './cmpts/svg_vista';
+import {Luna00} from './cmpts/svg_vista';
 import {Svg_nubes} from './cmpts/svg_vista';
 import img_carta00 from './img/carta.svg' ;
 import img_celular from './img/telefono.svg';
@@ -265,6 +267,9 @@ const Contacto = ()=>{
 
 
 </div>
+{std_tono 
+?<Sol00/> 
+:<Luna00/>}
 
 <Estrellas_div/>
 
