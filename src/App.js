@@ -14,8 +14,10 @@ import {Contx_scroll} from './cmpts/ctx00';
 import {Crud00} from './cmpts/crd';
 import {Canvs00} from './cmpts/canvs';
 import {Svg_mar} from './cmpts/svg_vista';
+import {Estrellas_div} from './cmpts/svg_vista';
 import {Svg_nubes} from './cmpts/svg_vista';
 import img_carta00 from './img/carta.svg' ;
+import img_celular from './img/telefono.svg';
 import img_inco00 from './img/svg_inco00.svg';
 import img_inco01 from './img/svg_inco01.svg';
 import img_inco_final00 from './img/svg_inco_final00.svg';
@@ -91,12 +93,12 @@ const Hadr = ()=>{
   return<header>
 
   <div className='d_hdmn02_slc'>  
-<div className='d_hdmn02'>
+<div className='d_hdmn02'onClick={()=>{std_tono ? setstd_tono(false) :setstd_tono(true)}}>
 
 
 
 <div className='d_hdmn02_00' style={std_tono ? { backgroundColor:"rgb(218, 218, 218)", float:"left"} : {backgroundColor:"rgb(148, 148, 148)", float:"right"}} 
-onClick={()=>{std_tono ? setstd_tono(false) :setstd_tono(true)}}
+
 ></div>
 </div>
   </div>
@@ -180,6 +182,7 @@ const Contacto = ()=>{
 
 <img className='img_carta' src={img_carta00}></img>
 <h1 className='h1_contacto02'>z.edd36@gmail.com</h1>
+<img className='img_telefono' src={img_celular}></img>
 <h1 className='h1_contacto02'>+569 4869 7889</h1>
 </div>
 
@@ -262,85 +265,39 @@ const Contacto = ()=>{
 
 
 </div>
+
+<Estrellas_div/>
+
 <Svg_nubes></Svg_nubes>
 <Svg_mar estado_dia={std_tono}/>
 
 
-
-
-
-{/* 
-<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'50vw',animationName:"animacion_svg_mar01", animationDuration: "6s",animationDirection:"reverse"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'75vw',animationName:"animacion_svg_mar01", animationDuration: "5s",animationDirection:"reverse"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'100vw',animationName:"animacion_svg_mar01", animationDuration: "6s",animationDirection:"reverse"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg00} style={{zIndex:"1",left:'125vw',animationName:"animacion_svg_mar01", animationDuration: "5s"}}></img>
-
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"0vw",animationName:"animacion_svg_mar00", animationDuration: "7.5s"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"50vw",animationName:"animacion_svg_mar00", animationDuration: "6s"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar00", animationDuration: "4.5s"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar00", animationDuration: "4s"}}></img>
-
-
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"0vw",animationName:"animacion_svg_mar02", animationDuration: "7.8s",animationDirection:"reverse"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"50vw",animationName:"animacion_svg_mar02", animationDuration: "8s",animationDirection:"reverse"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar02", animationDuration: "8.1s",animationDirection:"reverse"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{zIndex:"2",left:"25vw",animationName:"animacion_svg_mar02", animationDuration: "7.9s",animationDirection:"reverse"}}></img>
-
-
-
-*/}
-
-{/*
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{animationDirection:'reverse', animationDuration: "5s"}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg01} style={{left:'-99vw',animationDirection:'reverse'}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{left:"99vw",animationDelay:'14s',animationDuration:'14s'}}></img>
-<img className='svg_inco_mar_animacion00' src={img_mar_svg02} style={{left:"99vw",animationDuration:'14s'}}></img>
-
-*/ }
-
-
-
-
 </div>
-{/*
-//<img className='svg_inco' src={std_tono?  img_inco00 : img_inco01}></img>
-
-<div className='d_animacion00'>
-
-<div className='d_animacion00_01'></div>
-
-</div>
- Un comentario JSX */}
-
-
-
-
-
-
-
 
 
 <div className='d_skl' style={std_tono ?{backgroundColor:"rgb(54, 150, 206)"}:{backgroundColor:"rgb(17, 69, 99)"}}>
 
-<h1 className='h1_ttl03'>PERFIL</h1>
+<h1 className='h1_ttl03' style={std_tono? {background:"linear-gradient(0deg, rgba(56, 121, 206, 0.63) 20%, rgb(54, 150, 206) 77%)"}:{background:"linear-gradient(0deg, rgba(45, 98, 167, 0.63) 20%, rgb(17, 69, 99) 77%)"}}>PERFIL</h1>
 
-<Skl00/>
+<Skl00
+estado_tonos ={std_tono}
+/>
 <img className='svg_inco' src={std_tono?  img_inco_final00 : img_inco_final01}></img>
 </div>
 
 <div className='d_ejrc' style={std_tono ?{backgroundColor:"rgb(13, 16, 17)"}:{backgroundColor:"rgb(46, 54, 53)"}}>
-<h1 className='h1_ttl03'>EJEMPLOS</h1>
+<h1 className='h1_ttl04' style={std_tono ? {background:"linear-gradient(0deg, rgba(39, 46, 56, 0.63) 20%, rgb(13, 16, 17) 77%)"} :{background:"linear-gradient(0deg, rgba(45, 47, 49, 0.63) 20%, rgb(46, 54, 53) 77%)"}}>EJEMPLOS</h1>
 <div className='d_exm'>
 
   <div className='d_exm00'>
 <Exm00_slc exmslc00={std_exm} setexmslc00={setstd_exm}/>
   </div>
   
-{std_exm ==0 ? <Gfc00/> :<React.Fragment/>}
-{std_exm ==1 ? <Glra00/> :<React.Fragment/>}
-{std_exm ==2 ? <Api_rd00/>:<React.Fragment/>}
-{std_exm ==3 ? <Canvs00/>:<React.Fragment/>}
-{std_exm ==4 ? <Crud00/>:<React.Fragment/>}
+{std_exm ==0 ? <Gfc00 tono_color ={std_tono}/> :<React.Fragment/>}
+{std_exm ==1 ? <Glra00 tono_color ={std_tono}/> :<React.Fragment/>}
+{std_exm ==2 ? <Api_rd00 tono_color ={std_tono}/>:<React.Fragment/>}
+{std_exm ==3 ? <Canvs00 tono_color ={std_tono}/>:<React.Fragment/>}
+{std_exm ==4 ? <Crud00 tono_color ={std_tono}/>:<React.Fragment/>}
 
 </div>
 </div>

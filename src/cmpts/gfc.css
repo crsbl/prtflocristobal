@@ -18,9 +18,9 @@
     width:50rem;
     height:24rem;
     
-  
+  transition: 1s;
 
-background: linear-gradient(270deg,rgb(13, 16, 17) 2%, rgb(23, 44, 53) 49%, rgb(51, 103, 126) 100%);
+
     border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
     animation-name: grfc00;
     animation-duration: 0.3s;

@@ -3,7 +3,7 @@ import './gfc_rv.css';
 import React, {  useState, useContext } from 'react'
 
 
-export const Gfc00 = ()=>{
+export const Gfc00 = (props)=>{
 
     const [std_gtfco00, setstd_gtfco00] = useState(70)
 
@@ -13,7 +13,11 @@ export const Gfc00 = ()=>{
     let Grfico01 = {
         height: std_gtfco00 /10 + "rem"
     }
-    return <div className='d_gfc00'>
+    return <div className='d_gfc00'
+    style={props.tono_color 
+        ? {background:"linear-gradient(270deg,rgb(13, 16, 17) 2%, rgb(23, 44, 53) 49%, rgb(51, 103, 126) 100%)"} 
+        : {background:"linear-gradient(270deg,rgb(46, 54, 53) 2%, rgb(23, 44, 53) 49%, rgb(51, 103, 126) 100%)"}}
+    >
 
         <h1 className='h1_gfc00'>Ingrese un porcentaje</h1>
     <div className='d_gfc04'>

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 
 import './crd.css'
 import './crd_rv.css'
-export const Crud00 = ()=>{
+export const Crud00 = (props)=>{
 
 
 
@@ -194,7 +194,12 @@ itms_tdos()
 
 
 
-    return<div className='d_crd00'>
+    return<div className='d_crd00'
+    style={props.color_tono
+    ?{background:"linear-gradient(270deg,rgb(13, 16, 17) 2%,  rgb(73, 55, 53) 49%,  rgb(92, 69, 66) 100%)"}
+    :{background:"linear-gradient(270deg,rgb(46, 54, 53) 2%,  rgb(73, 55, 53) 49%,  rgb(92, 69, 66) 100%)"}
+    } 
+    >
 
 <div className='d_crd01 '>
 
