@@ -34,7 +34,7 @@ import img_mar_svg02 from './img/mar/svg_mar02.svg';
 function App() {
 
 
-
+  const resposive00 = window.innerWidth > 426
 
   let cntx = useContext(Contx_scroll)
   
@@ -282,7 +282,7 @@ const Contacto = ()=>{
 
 <div className='d_skl' style={std_tono ?{backgroundColor:"rgb(54, 150, 206)"}:{backgroundColor:"rgb(17, 69, 99)"}}>
 
-<h1 className='h1_ttl03' style={std_tono? {background:"linear-gradient(0deg, rgba(56, 121, 206, 0.63) 20%, rgb(54, 150, 206) 77%)"}:{background:"linear-gradient(0deg, rgba(45, 98, 167, 0.63) 20%, rgb(17, 69, 99) 77%)"}}>PERFIL</h1>
+<h1 className='h1_ttl03' style={resposive00 ?{margin:"4rem 0 0 0"} :{margin:"0 0 0 0"},   std_tono? {background:"linear-gradient(0deg, rgba(56, 121, 206, 0.63) 20%, rgb(54, 150, 206) 77%)"}:{background:"linear-gradient(0deg, rgba(45, 98, 167, 0.63) 20%, rgb(17, 69, 99) 77%)"}}>PERFIL</h1>
 
 <Skl00
 estado_tonos ={std_tono}

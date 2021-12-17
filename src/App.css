@@ -58,8 +58,7 @@ align-items: flex-end;
   }
 .d_contenedor_bote{
   position: absolute;
-  width: 33rem;
-height:21rem;
+
 z-index: 3;
 }
 

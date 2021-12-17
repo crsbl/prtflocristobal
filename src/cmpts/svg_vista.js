@@ -11,6 +11,11 @@ import Nube08 from '../img/nubes/nube08.svg'
 import Nube09 from '../img/nubes/nube09.svg'
 
 
+
+
+const resposive00 = window.innerWidth > 426
+
+
 export const Svg_mar = (props) => {
 
 
@@ -27,8 +32,7 @@ export const Svg_mar = (props) => {
 				</svg>
 			</div>
 
-			<div className='d_contenedor_bote'>
-
+			<div className='d_contenedor_bote' style={resposive00 ?{width:"33rem", height:"21rem"}  :{width:"31rem", height:"19rem"}}>
 
 
 				<svg version="1.1" id="Barco00" x="0px" y="0px" viewBox="0 0 100 60">
@@ -114,16 +118,16 @@ export const Svg_nubes = () => {
 	return <React.Fragment>
 
 
-		<img className="img_nubes" src={Nube00} style={{ width: "10rem", height: "12rem", top: `10rem`, animationName: "nube_movimiento00", animationDuration: `55s`, animationDelay: `1s` }}></img>
-		<img className="img_nubes" src={Nube01} style={{ width: "14rem", height: "16rem", top: `5rem`, animationName: "nube_movimiento00", animationDuration: `90s`, animationDelay: `15s` }}></img>
-		<img className="img_nubes" src={Nube02} style={{ width: "8rem", height: "10rem", top: `40rem`, animationName: "nube_movimiento00", animationDuration: `55s`, animationDelay: `20s` }}></img>
-		<img className="img_nubes" src={Nube03} style={{ width: "17rem", height: "19rem", top: `15rem`, animationName: "nube_movimiento00", animationDuration: `85s`, animationDelay: `3s` }}></img>
-		<img className="img_nubes" src={Nube04} style={{ width: "12rem", height: "14rem", top: `20rem`, animationName: "nube_movimiento00", animationDuration: `100s`, animationDelay: `10s` }}></img>
-		<img className="img_nubes" src={Nube05} style={{ width: "6rem", height: "8rem", top: `7rem`, animationName: "nube_movimiento00", animationDuration: `95s`, animationDelay: `20s` }}></img>
-		<img className="img_nubes" src={Nube06} style={{ width: "17rem", height: "19rem", top: `18rem`, animationName: "nube_movimiento00", animationDuration: `60s`, animationDelay: `0s` }}></img>
-		<img className="img_nubes" src={Nube07} style={{ width: "13rem", height: "15rem", top: `33rem`, animationName: "nube_movimiento00", animationDuration: `100s`, animationDelay: `25s` }}></img>
-		<img className="img_nubes" src={Nube08} style={{ width: "11rem", height: "13rem", top: `37rem`, animationName: "nube_movimiento00", animationDuration: `89s`, animationDelay: `15s` }}></img>
-		<img className="img_nubes" src={Nube09} style={{ width: "10rem", height: "12rem", top: `25rem`, animationName: "nube_movimiento00", animationDuration: `81s`, animationDelay: `8s` }}></img>
+		<img className="img_nubes" src={Nube00} style={{ width: "10rem", height: "12rem", top:resposive00 ? `10rem`: `15rem`  , animationName: "nube_movimiento00", animationDuration: `55s`, animationDelay: `1s` }}></img>
+		<img className="img_nubes" src={Nube01} style={{ width: "14rem", height: "16rem", top:resposive00 ? `5rem`:`10rem`, animationName: "nube_movimiento00", animationDuration: `90s`, animationDelay: `15s` }}></img>
+		<img className="img_nubes" src={Nube02} style={{ width: "8rem", height: "10rem", top:resposive00 ? `40rem`:`45rem` , animationName: "nube_movimiento00", animationDuration: `55s`, animationDelay: `20s` }}></img>
+		<img className="img_nubes" src={Nube03} style={{ width: "17rem", height: "19rem", top:resposive00 ? `15rem`:`20rem`, animationName: "nube_movimiento00", animationDuration: `85s`, animationDelay: `3s` }}></img>
+		<img className="img_nubes" src={Nube04} style={{ width: "12rem", height: "14rem", top:resposive00 ? `20rem` :`25rem`, animationName: "nube_movimiento00", animationDuration: `100s`, animationDelay: `10s` }}></img>
+		<img className="img_nubes" src={Nube05} style={{ width: "6rem", height: "8rem", top:resposive00 ?  `7rem` : `12rem`, animationName: "nube_movimiento00", animationDuration: `95s`, animationDelay: `20s` }}></img>
+		<img className="img_nubes" src={Nube06} style={{ width: "17rem", height: "19rem", top:resposive00 ? `18rem` :`23rem`, animationName: "nube_movimiento00", animationDuration: `60s`, animationDelay: `0s` }}></img>
+		<img className="img_nubes" src={Nube07} style={{ width: "13rem", height: "15rem", top:resposive00 ? `33rem` :`38rem`, animationName: "nube_movimiento00", animationDuration: `100s`, animationDelay: `25s` }}></img>
+		<img className="img_nubes" src={Nube08} style={{ width: "11rem", height: "13rem", top:resposive00 ? `37rem` :`42rem`, animationName: "nube_movimiento00", animationDuration: `89s`, animationDelay: `15s` }}></img>
+		<img className="img_nubes" src={Nube09} style={{ width: "10rem", height: "12rem", top:resposive00 ?   `25rem` : `30rem`, animationName: "nube_movimiento00", animationDuration: `81s`, animationDelay: `8s` }}></img>
 
 
 	</React.Fragment>
@@ -142,7 +146,7 @@ export const Estrellas_div = () => {
 
 	for (let i = 0; i < 100; i++) {
 
-		let estrella_posicion_top = Math.floor((Math.random() * 45) + 1);
+		let estrella_posicion_top = resposive00 ? Math.floor((Math.random() * 45) + 1) : Math.floor((Math.random() * 60) + 1);
 		let estrella_posicion_left = Math.floor((Math.random() * 105) + 1);
 		let estrella_width_height = Math.floor((Math.random() * 3) + 1);
 		
@@ -167,7 +171,7 @@ export const Estrellas_div = () => {
 
 
 
-			return <div className="d_estrella00" style={{animationDuration:`0.${estrellas[4]}s` ,animationName:estrellas[3] ,width: `0.${estrellas[2]}rem`, height: `0.${estrellas[2]}rem`, top: `${estrellas[0]}vw`, left: `${estrellas[1]}rem` }}></div>
+			return <div className="d_estrella00" style={{animationDuration:`0.${estrellas[4]}s` ,animationName:estrellas[3] ,width: `0.${estrellas[2]}rem`, height: `0.${estrellas[2]}rem`, top: `${estrellas[0]}rem`, left: `${estrellas[1]}vw` }}></div>
 
 		})}
 

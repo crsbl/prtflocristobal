@@ -357,7 +357,7 @@ width:48rem;
     display: flex;
    flex-flow: row nowrap;
 transition: 1s;
-   background: linear-gradient(270deg, rgb(17, 69, 99)  13%, rgb(62, 79, 110) 85%);
+  
    border-radius: 0 0 0 1rem;
    padding:0.8rem 1.2rem 0.8rem 1.2rem;
 }
