@@ -26,7 +26,7 @@ export const Svg_mar = (props) => {
 			<div className='d_contenedor_mar'>
 				<svg viewBox="0 0 338 7" version="1.1" id="svg_mar" x="0px" y="0px">
 
-					<rect x="0" width="380" height="7"   transition="1s" style={props.estado_dia ? { fill: "rgb(228, 239, 241)" } : { fill: "rgb(91, 94, 92)" }}></rect>
+					<rect x="0" width="380" height="7"   transition="1s" style={props.estado_dia ? { fill: "rgb(212, 232, 252)" } : { fill: "rgb(91, 94, 92)" }}></rect>
 
 					<path id="agua00" style={props.estado_dia ? { fill: "rgb(54, 150, 206)" } : { fill: "rgb(17, 69, 99)" }} d="M0,7c4.4-0.9,10.8-2.2,18.6-3.1c11.7-1.3,20-1.2,30-1.1c21.2,0.2,38.2,0.1,58.7,0C120.1,2.8,132,2.6,132,2.6 c4.4,0,8.3-0.1,17.6-0.2c0,0,11.1-0.1,21.4-0.2c15.5-0.1,21.1,0,44.4,0c27.4,0,29.1-0.2,45.2,0c1.1,0,13.9,0.1,30.9,0.6 c14.6,0.4,24.2,0.9,36.2,2.5C331.9,6,335.5,6.6,338,7" ></path>
 				</svg>
