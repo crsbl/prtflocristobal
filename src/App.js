@@ -44,7 +44,7 @@ const [std_exm, setstd_exm] = useState(0)
 
 const [std_mnu, setstd_mnu] = useState(0)
 
-const [std_tono, setstd_tono] = useState(true)
+const [std_tono, setstd_tono] = useState(false)
 
 
 let std_croll = null
